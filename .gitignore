@@ -1,5 +1,5 @@
 hello_world.py
 hello_world
-elecnet_config
-*/output
-*/networks/*
+elecnet_config/
+output/
+networks/
