@@ -1,0 +1,60 @@
+test@sydcore-2# (echo "IPTABLES" && iptables -S)
+IPTABLES
+-P INPUT ACCEPT
+-P FORWARD ACCEPT
+-P OUTPUT ACCEPT
+test@sydcore-2# (echo "configuration file" && cat usr.local.etc.frr/frr.conf)
+configuration file
+interface eth0
+    ip address 10.10.139.94
+    ip ospf network point-to-point
+    ip ospf hello-interval 2
+    ip ospf dead-interval 6
+    ip ospf retransmit-interval 5
+!
+interface eth1
+    ip address 10.10.97.197
+    ip ospf network point-to-point
+    ip ospf hello-interval 2
+    ip ospf dead-interval 6
+    ip ospf retransmit-interval 5
+!
+interface eth2
+    ip address 10.21.138.138
+    ip ospf network point-to-point
+    ip ospf hello-interval 2
+    ip ospf dead-interval 6
+    ip ospf retransmit-interval 5
+!
+interface eth3
+    ip address 10.22.130.17
+    ip ospf network point-to-point
+    ip ospf hello-interval 2
+    ip ospf dead-interval 6
+    ip ospf retransmit-interval 5
+!
+interface eth4
+    ip address 10.22.153.211
+    ip ospf network point-to-point
+    ip ospf hello-interval 2
+    ip ospf dead-interval 6
+    ip ospf retransmit-interval 5
+!
+interface eth5
+    ip address 10.20.148.198
+    ip ospf network point-to-point
+    ip ospf hello-interval 2
+    ip ospf dead-interval 6
+    ip ospf retransmit-interval 5
+!
+
+router ospf
+  router-id 10.10.139.94
+  network 10.10.139.94/30 area 0
+  network 10.10.97.197/30 area 0
+  network 10.21.138.138/30 area 0
+  network 10.22.130.17/29 area 0
+  network 10.22.153.211/29 area 0
+  network 10.20.148.198/30 area 0
+  ospf opaque-lsa
+!

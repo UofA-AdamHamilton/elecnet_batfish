@@ -1,0 +1,31 @@
+test@brd-gw# (echo "configuration file" && cat usr.local.etc.frr/frr.conf)
+configuration file
+interface eth0
+    ip address 10.22.186.202
+    ip ospf network point-to-point
+    ip ospf hello-interval 2
+    ip ospf dead-interval 6
+    ip ospf retransmit-interval 5
+!
+interface eth1
+    ip address 10.22.178.133
+    ip ospf network point-to-point
+    ip ospf hello-interval 2
+    ip ospf dead-interval 6
+    ip ospf retransmit-interval 5
+!
+interface eth2
+    ip address 10.23.180.214
+    ip ospf network point-to-point
+    ip ospf hello-interval 2
+    ip ospf dead-interval 6
+    ip ospf retransmit-interval 5
+!
+
+router ospf
+  router-id 10.22.186.202
+  network 10.22.186.202/29 area 0
+  network 10.22.178.133/29 area 0
+  network 10.23.180.214/29 area 0
+  ospf opaque-lsa
+!

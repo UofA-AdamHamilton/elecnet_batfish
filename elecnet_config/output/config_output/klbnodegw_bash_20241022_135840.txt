@@ -1,0 +1,31 @@
+test@klbnodegw# (echo "configuration file" && cat usr.local.etc.frr/frr.conf)
+configuration file
+interface eth0
+    ip address 10.25.203.164
+    ip ospf network point-to-point
+    ip ospf hello-interval 2
+    ip ospf dead-interval 6
+    ip ospf retransmit-interval 5
+!
+interface eth1
+    ip address 10.25.78.146
+    ip ospf network point-to-point
+    ip ospf hello-interval 2
+    ip ospf dead-interval 6
+    ip ospf retransmit-interval 5
+!
+interface eth2
+    ip address 10.25.72.26
+    ip ospf network point-to-point
+    ip ospf hello-interval 2
+    ip ospf dead-interval 6
+    ip ospf retransmit-interval 5
+!
+
+router ospf
+  router-id 10.25.203.164
+  network 10.25.203.164/25 area 0
+  network 10.25.78.146/24 area 0
+  network 10.25.72.26/25 area 0
+  ospf opaque-lsa
+!

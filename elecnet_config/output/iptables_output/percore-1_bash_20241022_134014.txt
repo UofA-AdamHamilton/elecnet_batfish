@@ -1,0 +1,68 @@
+test@percore-1# (echo "IPTABLES" && iptables -S)
+IPTABLES
+-P INPUT ACCEPT
+-P FORWARD ACCEPT
+-P OUTPUT ACCEPT
+test@percore-1# (echo "configuration file" && cat usr.local.etc.frr/frr.conf)
+configuration file
+interface eth0
+    ip address 10.10.56.154
+    ip ospf network point-to-point
+    ip ospf hello-interval 2
+    ip ospf dead-interval 6
+    ip ospf retransmit-interval 5
+!
+interface eth1
+    ip address 10.22.39.108
+    ip ospf network point-to-point
+    ip ospf hello-interval 2
+    ip ospf dead-interval 6
+    ip ospf retransmit-interval 5
+!
+interface eth2
+    ip address 10.22.33.124
+    ip ospf network point-to-point
+    ip ospf hello-interval 2
+    ip ospf dead-interval 6
+    ip ospf retransmit-interval 5
+!
+interface eth3
+    ip address 10.21.46.130
+    ip ospf network point-to-point
+    ip ospf hello-interval 2
+    ip ospf dead-interval 6
+    ip ospf retransmit-interval 5
+!
+interface eth4
+    ip address 10.20.56.18
+    ip ospf network point-to-point
+    ip ospf hello-interval 2
+    ip ospf dead-interval 6
+    ip ospf retransmit-interval 5
+!
+interface eth5
+    ip address 10.20.38.97
+    ip ospf network point-to-point
+    ip ospf hello-interval 2
+    ip ospf dead-interval 6
+    ip ospf retransmit-interval 5
+!
+interface eth6
+    ip address 10.10.4.130
+    ip ospf network point-to-point
+    ip ospf hello-interval 2
+    ip ospf dead-interval 6
+    ip ospf retransmit-interval 5
+!
+
+router ospf
+  router-id 10.10.56.154
+  network 10.10.56.154/30 area 0
+  network 10.22.39.108/29 area 0
+  network 10.22.33.124/29 area 0
+  network 10.21.46.130/30 area 0
+  network 10.20.56.18/30 area 0
+  network 10.20.38.97/30 area 0
+  network 10.10.4.130/30 area 0
+  ospf opaque-lsa
+!

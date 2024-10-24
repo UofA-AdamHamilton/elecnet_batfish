@@ -1,0 +1,107 @@
+test@cmtnodegw# (echo "IPTABLES" && iptables -S)
+IPTABLES
+-P INPUT DROP
+-P FORWARD DROP
+-P OUTPUT DROP
+-N ANYWHERE
+-N Clermont#B#SolarNode
+-N Clermont#B#SolarNode#
+-N Echuca#C#SolarNode
+-N Innamincka#A#SolarNode
+-N Innisfail#B#WindNode
+-N Ivanhoe#B#WindNode
+-N Meekatharra#B#SolarNode
+-N Newman#C#SolarNode
+-N Pamayu#C#SolarNode
+-N Ti_Tree#B#SolarNode
+-N Ungarie#B#SolarNode
+-N Wee_Waa#B#SolarNode
+-A INPUT -p ospf -j ACCEPT
+-A INPUT -p udp -m udp --dport 33434:33474 -j REJECT --reject-with icmp-port-unreachable
+-A FORWARD -m conntrack --ctstate RELATED,ESTABLISHED -j ACCEPT
+-A FORWARD -j Clermont#B#SolarNode
+-A FORWARD -j ANYWHERE
+-A OUTPUT -p ospf -j ACCEPT
+-A OUTPUT -p icmp -m icmp --icmp-type 11 -j ACCEPT
+-A OUTPUT -p icmp -m icmp --icmp-type 3 -j ACCEPT
+-A ANYWHERE -j Clermont#B#SolarNode#
+-A Clermont#B#SolarNode -j Wee_Waa#B#SolarNode
+-A Clermont#B#SolarNode -j Ti_Tree#B#SolarNode
+-A Clermont#B#SolarNode -j Newman#C#SolarNode
+-A Clermont#B#SolarNode -j Pamayu#C#SolarNode
+-A Clermont#B#SolarNode -j Ungarie#B#SolarNode
+-A Clermont#B#SolarNode -j Innamincka#A#SolarNode
+-A Clermont#B#SolarNode -j Innisfail#B#WindNode
+-A Clermont#B#SolarNode -j Ivanhoe#B#WindNode
+-A Clermont#B#SolarNode -j Echuca#C#SolarNode
+-A Clermont#B#SolarNode -j Meekatharra#B#SolarNode
+-A Clermont#B#SolarNode# -s 10.25.159.206/32 -j ACCEPT
+-A Clermont#B#SolarNode# -s 10.25.158.35/32 -j ACCEPT
+-A Clermont#B#SolarNode# -s 10.25.159.13/32 -j ACCEPT
+-A Echuca#C#SolarNode -s 10.25.113.152/32 -j ACCEPT
+-A Echuca#C#SolarNode -s 10.25.114.214/32 -j ACCEPT
+-A Echuca#C#SolarNode -s 10.25.117.153/32 -j ACCEPT
+-A Innamincka#A#SolarNode -s 10.25.7.55/32 -j ACCEPT
+-A Innamincka#A#SolarNode -s 10.25.0.90/32 -j ACCEPT
+-A Innamincka#A#SolarNode -s 10.25.4.120/32 -j ACCEPT
+-A Innisfail#B#WindNode -s 10.25.155.223/32 -j ACCEPT
+-A Innisfail#B#WindNode -s 10.25.154.178/32 -j ACCEPT
+-A Ivanhoe#B#WindNode -s 10.25.164.138/32 -j ACCEPT
+-A Ivanhoe#B#WindNode -s 10.25.160.61/32 -j ACCEPT
+-A Meekatharra#B#SolarNode -s 10.25.143.111/32 -j ACCEPT
+-A Meekatharra#B#SolarNode -s 10.25.139.13/32 -j ACCEPT
+-A Meekatharra#B#SolarNode -s 10.25.140.77/32 -j ACCEPT
+-A Newman#C#SolarNode -s 10.25.78.157/32 -j ACCEPT
+-A Newman#C#SolarNode -s 10.25.77.230/32 -j ACCEPT
+-A Newman#C#SolarNode -s 10.25.73.68/32 -j ACCEPT
+-A Pamayu#C#SolarNode -s 10.25.86.112/32 -j ACCEPT
+-A Pamayu#C#SolarNode -s 10.25.81.198/32 -j ACCEPT
+-A Pamayu#C#SolarNode -s 10.25.80.54/32 -j ACCEPT
+-A Ti_Tree#B#SolarNode -s 10.25.150.57/32 -j ACCEPT
+-A Ti_Tree#B#SolarNode -s 10.25.149.221/32 -j ACCEPT
+-A Ti_Tree#B#SolarNode -s 10.25.151.193/32 -j ACCEPT
+-A Ungarie#B#SolarNode -s 10.25.165.171/32 -j ACCEPT
+-A Ungarie#B#SolarNode -s 10.25.162.236/32 -j ACCEPT
+-A Ungarie#B#SolarNode -s 10.25.166.189/32 -j ACCEPT
+-A Wee_Waa#B#SolarNode -s 10.25.161.69/32 -j ACCEPT
+-A Wee_Waa#B#SolarNode -s 10.25.167.43/32 -j ACCEPT
+-A Wee_Waa#B#SolarNode -s 10.25.163.133/32 -j ACCEPT
+test@cmtnodegw# (echo "configuration file" && cat usr.local.etc.frr/frr.conf)
+configuration file
+interface eth0
+    ip address 10.25.159.192
+    ip ospf network point-to-point
+    ip ospf hello-interval 2
+    ip ospf dead-interval 6
+    ip ospf retransmit-interval 5
+!
+interface eth1
+    ip address 10.25.217.7
+    ip ospf network point-to-point
+    ip ospf hello-interval 2
+    ip ospf dead-interval 6
+    ip ospf retransmit-interval 5
+!
+interface eth2
+    ip address 10.25.158.108
+    ip ospf network point-to-point
+    ip ospf hello-interval 2
+    ip ospf dead-interval 6
+    ip ospf retransmit-interval 5
+!
+interface eth3
+    ip address 10.25.159.124
+    ip ospf network point-to-point
+    ip ospf hello-interval 2
+    ip ospf dead-interval 6
+    ip ospf retransmit-interval 5
+!
+
+router ospf
+  router-id 10.25.159.192
+  network 10.25.159.192/25 area 0
+  network 10.25.217.7/25 area 0
+  network 10.25.158.108/24 area 0
+  network 10.25.159.124/25 area 0
+  ospf opaque-lsa
+!

@@ -1,0 +1,60 @@
+test@bnecore-2# (echo "IPTABLES" && iptables -S)
+IPTABLES
+-P INPUT ACCEPT
+-P FORWARD ACCEPT
+-P OUTPUT ACCEPT
+test@bnecore-2# (echo "configuration file" && cat usr.local.etc.frr/frr.conf)
+configuration file
+interface eth0
+    ip address 10.21.119.242
+    ip ospf network point-to-point
+    ip ospf hello-interval 2
+    ip ospf dead-interval 6
+    ip ospf retransmit-interval 5
+!
+interface eth1
+    ip address 10.22.117.105
+    ip ospf network point-to-point
+    ip ospf hello-interval 2
+    ip ospf dead-interval 6
+    ip ospf retransmit-interval 5
+!
+interface eth2
+    ip address 10.10.66.194
+    ip ospf network point-to-point
+    ip ospf hello-interval 2
+    ip ospf dead-interval 6
+    ip ospf retransmit-interval 5
+!
+interface eth3
+    ip address 10.22.115.150
+    ip ospf network point-to-point
+    ip ospf hello-interval 2
+    ip ospf dead-interval 6
+    ip ospf retransmit-interval 5
+!
+interface eth4
+    ip address 10.20.118.29
+    ip ospf network point-to-point
+    ip ospf hello-interval 2
+    ip ospf dead-interval 6
+    ip ospf retransmit-interval 5
+!
+interface eth5
+    ip address 10.10.97.198
+    ip ospf network point-to-point
+    ip ospf hello-interval 2
+    ip ospf dead-interval 6
+    ip ospf retransmit-interval 5
+!
+
+router ospf
+  router-id 10.21.119.242
+  network 10.21.119.242/30 area 0
+  network 10.22.117.105/29 area 0
+  network 10.10.66.194/30 area 0
+  network 10.22.115.150/29 area 0
+  network 10.20.118.29/30 area 0
+  network 10.10.97.198/30 area 0
+  ospf opaque-lsa
+!

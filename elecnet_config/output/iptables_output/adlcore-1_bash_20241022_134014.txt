@@ -1,0 +1,60 @@
+test@adlcore-1# (echo "IPTABLES" && iptables -S)
+IPTABLES
+-P INPUT ACCEPT
+-P FORWARD ACCEPT
+-P OUTPUT ACCEPT
+test@adlcore-1# (echo "configuration file" && cat usr.local.etc.frr/frr.conf)
+configuration file
+interface eth0
+    ip address 10.10.4.129
+    ip ospf network point-to-point
+    ip ospf hello-interval 2
+    ip ospf dead-interval 6
+    ip ospf retransmit-interval 5
+!
+interface eth1
+    ip address 10.22.3.13
+    ip ospf network point-to-point
+    ip ospf hello-interval 2
+    ip ospf dead-interval 6
+    ip ospf retransmit-interval 5
+!
+interface eth2
+    ip address 10.22.4.81
+    ip ospf network point-to-point
+    ip ospf hello-interval 2
+    ip ospf dead-interval 6
+    ip ospf retransmit-interval 5
+!
+interface eth3
+    ip address 10.21.25.134
+    ip ospf network point-to-point
+    ip ospf hello-interval 2
+    ip ospf dead-interval 6
+    ip ospf retransmit-interval 5
+!
+interface eth4
+    ip address 10.10.11.69
+    ip ospf network point-to-point
+    ip ospf hello-interval 2
+    ip ospf dead-interval 6
+    ip ospf retransmit-interval 5
+!
+interface eth5
+    ip address 10.20.4.201
+    ip ospf network point-to-point
+    ip ospf hello-interval 2
+    ip ospf dead-interval 6
+    ip ospf retransmit-interval 5
+!
+
+router ospf
+  router-id 10.10.4.129
+  network 10.10.4.129/30 area 0
+  network 10.22.3.13/29 area 0
+  network 10.22.4.81/29 area 0
+  network 10.21.25.134/30 area 0
+  network 10.10.11.69/30 area 0
+  network 10.20.4.201/30 area 0
+  ospf opaque-lsa
+!

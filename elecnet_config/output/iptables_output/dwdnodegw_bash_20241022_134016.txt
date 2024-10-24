@@ -1,0 +1,100 @@
+test@dwdnodegw# (echo "IPTABLES" && iptables -S)
+IPTABLES
+-P INPUT DROP
+-P FORWARD DROP
+-P OUTPUT DROP
+-N Barrow_Island#A#WindNode
+-N Dotswood#A#HydroNode
+-N Enngonia#A#HydroNode
+-N Franklin#A#HydroNode
+-N Horsham#A#WindNode
+-N Innamincka#A#SolarNode
+-N Willowra#A#WindNode
+-A INPUT -p ospf -j ACCEPT
+-A INPUT -p udp -m udp --dport 33434:33474 -j REJECT --reject-with icmp-port-unreachable
+-A FORWARD -m conntrack --ctstate RELATED,ESTABLISHED -j ACCEPT
+-A FORWARD -j Dotswood#A#HydroNode
+-A FORWARD -s 10.25.31.110/32 -d 10.25.25.89/32 -j ACCEPT
+-A FORWARD -s 10.25.31.110/32 -d 10.25.30.117/32 -j ACCEPT
+-A FORWARD -s 10.25.25.89/32 -d 10.25.31.110/32 -j ACCEPT
+-A FORWARD -s 10.25.25.89/32 -d 10.25.30.117/32 -j ACCEPT
+-A FORWARD -s 10.25.30.117/32 -d 10.25.31.110/32 -j ACCEPT
+-A FORWARD -s 10.25.30.117/32 -d 10.25.25.89/32 -j ACCEPT
+-A FORWARD -d 10.25.19.165/32 -j ACCEPT
+-A FORWARD -d 10.25.16.104/32 -j ACCEPT
+-A FORWARD -d 10.25.32.57/32 -j ACCEPT
+-A FORWARD -d 10.25.38.50/32 -j ACCEPT
+-A FORWARD -d 10.25.35.44/32 -j ACCEPT
+-A FORWARD -d 10.25.62.185/32 -j ACCEPT
+-A FORWARD -d 10.25.60.5/32 -j ACCEPT
+-A FORWARD -d 10.25.61.10/32 -j ACCEPT
+-A FORWARD -d 10.25.55.44/32 -j ACCEPT
+-A FORWARD -d 10.25.55.146/32 -j ACCEPT
+-A FORWARD -d 10.25.7.55/32 -j ACCEPT
+-A FORWARD -d 10.25.0.90/32 -j ACCEPT
+-A FORWARD -d 10.25.4.120/32 -j ACCEPT
+-A FORWARD -d 10.25.11.119/32 -j ACCEPT
+-A FORWARD -d 10.25.14.124/32 -j ACCEPT
+-A OUTPUT -p ospf -j ACCEPT
+-A OUTPUT -p icmp -m icmp --icmp-type 11 -j ACCEPT
+-A OUTPUT -p icmp -m icmp --icmp-type 3 -j ACCEPT
+-A Barrow_Island#A#WindNode -s 10.25.11.119/32 -j ACCEPT
+-A Barrow_Island#A#WindNode -s 10.25.14.124/32 -j ACCEPT
+-A Dotswood#A#HydroNode -j Willowra#A#WindNode
+-A Dotswood#A#HydroNode -j Enngonia#A#HydroNode
+-A Dotswood#A#HydroNode -j Franklin#A#HydroNode
+-A Dotswood#A#HydroNode -j Horsham#A#WindNode
+-A Dotswood#A#HydroNode -j Innamincka#A#SolarNode
+-A Dotswood#A#HydroNode -j Barrow_Island#A#WindNode
+-A Enngonia#A#HydroNode -s 10.25.32.57/32 -j ACCEPT
+-A Enngonia#A#HydroNode -s 10.25.38.50/32 -j ACCEPT
+-A Enngonia#A#HydroNode -s 10.25.35.44/32 -j ACCEPT
+-A Franklin#A#HydroNode -s 10.25.62.185/32 -j ACCEPT
+-A Franklin#A#HydroNode -s 10.25.60.5/32 -j ACCEPT
+-A Franklin#A#HydroNode -s 10.25.61.10/32 -j ACCEPT
+-A Horsham#A#WindNode -s 10.25.55.44/32 -j ACCEPT
+-A Horsham#A#WindNode -s 10.25.55.146/32 -j ACCEPT
+-A Innamincka#A#SolarNode -s 10.25.7.55/32 -j ACCEPT
+-A Innamincka#A#SolarNode -s 10.25.0.90/32 -j ACCEPT
+-A Innamincka#A#SolarNode -s 10.25.4.120/32 -j ACCEPT
+-A Willowra#A#WindNode -s 10.25.19.165/32 -j ACCEPT
+-A Willowra#A#WindNode -s 10.25.16.104/32 -j ACCEPT
+test@dwdnodegw# (echo "configuration file" && cat usr.local.etc.frr/frr.conf)
+configuration file
+interface eth0
+    ip address 10.25.31.62
+    ip ospf network point-to-point
+    ip ospf hello-interval 2
+    ip ospf dead-interval 6
+    ip ospf retransmit-interval 5
+!
+interface eth1
+    ip address 10.25.218.28
+    ip ospf network point-to-point
+    ip ospf hello-interval 2
+    ip ospf dead-interval 6
+    ip ospf retransmit-interval 5
+!
+interface eth2
+    ip address 10.25.25.70
+    ip ospf network point-to-point
+    ip ospf hello-interval 2
+    ip ospf dead-interval 6
+    ip ospf retransmit-interval 5
+!
+interface eth3
+    ip address 10.25.30.102
+    ip ospf network point-to-point
+    ip ospf hello-interval 2
+    ip ospf dead-interval 6
+    ip ospf retransmit-interval 5
+!
+
+router ospf
+  router-id 10.25.31.62
+  network 10.25.31.62/25 area 0
+  network 10.25.218.28/24 area 0
+  network 10.25.25.70/25 area 0
+  network 10.25.30.102/25 area 0
+  ospf opaque-lsa
+!

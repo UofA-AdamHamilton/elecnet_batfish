@@ -1,0 +1,1082 @@
+? !!python/object/apply:rdflib.term.Literal
+- Adelaide
+- null
+- null
+: admin1code: '05'
+  admin2code: '40070'
+  admin3code: .nan
+  admin4code: .nan
+  alternatenames: "ADL,Adehlaida,Adelaida,Adelaidae,Adelaide,Adelaidis,Adelaid\u0117\
+    ,Adelajda,Adelajdo,Adela\xEFda,Adela\xEFde,Adelejd,Adel\xE0ida,Ad\xE9la\xEFde,Edelaid,Tarndanya,Tarndarnya,a\
+    \ de lai de,adelaida,aderedo,adilaid,adiled,adlayd,adylyd,aedeulleideu,atileyit,edile'ida,edileda,\u0391\
+    \u03B4\u03B5\u03BB\u03B1\u0390\u03B4\u03B1,\u0410\u0434\u0435\u043B\u0430\u0438\
+    \u0434\xE6,\u0410\u0434\u0435\u043B\u0430\u0438\u0434\u0430,\u0410\u0434\u0435\
+    \u043B\u0430\u0457\u0434\u0430,\u0410\u0434\u0435\u043B\u0435\u0439\u0434,\u0410\
+    \u0434\u0435\u043B\u0435\u0458\u0434,\u0410\u0434\u044D\u043B\u0430\u0456\u0434\
+    \u0430,\u0531\u0564\u0565\u056C\u0561\u056B\u0564\u0561,\u05D0\u05D3\u05DC\u05D9\
+    \u05D9\u05D3,\u0622\u062F\u0644\u0627\u06CC\u062F,\u0623\u062F\u064A\u0644\u064A\
+    \u062F,\u0626\u0627\u062F\u06D0\u0644\u0627\u064A\u062F\u06D0,\u0627\u06CC\u0688\
+    \u06CC\u0644\u06CC\u0688,\u090F\u0921\u093F\u0932\u0947\u0921,\u0972daleda,\u0972\
+    \u0921\u0932\u0947\u0921,\u0A8F\u0AA1\u0ABF\u0AB2\u0AC7\u0A87\u0AA1,\u0B85\u0B9F\
+    \u0BBF\u0BB2\u0BC6\u0BAF\u0BBF\u0B9F\u0BCD,\u0C05\u0C21\u0C3F\u0C32\u0C48\u0C21\
+    \u0C4D,\u0C85\u0CA1\u0CBF\u0CB2\u0CC7\u0CA1\u0CCD,\u0D05\u0D21\u0D3F\u0D32\u0D46\
+    \u0D2F\u0D4D\u200C\u0D21\u0D4D,\u0E41\u0E2D\u0E14\u0E34\u0E40\u0E25\u0E14,\u1021\
+    \u1000\u103A\u1012\u101C\u102D\u1010\u103A\u1019\u103C\u102D\u102F\u1037,\u10D0\
+    \u10D3\u10D4\u10DA\u10D0\u10D8\u10D3\u10D0,\u30A2\u30C7\u30EC\u30FC\u30C9,\u963F\
+    \u5FB7\u6765\u5F97,\u963F\u5FB7\u83B1\u5FB7,\uC560\uB4E4\uB808\uC774\uB4DC"
+  asciiname: Adelaide
+  certainty: 1.0
+  countrycode: AU
+  countrycode2: .nan
+  dem: 56.0
+  elevation: .nan
+  featureclass: P
+  featurecode: PPLA
+  geonameid: 2078025.0
+  latitude: -34.92866
+  longitude: 138.59863
+  modificationdate: '2020-06-19'
+  name: Adelaide
+  population: 1225235.0
+  timezone: Australia/Adelaide
+  x: 15428728.91624533
+  y: -4154190.544239054
+? !!python/object/apply:rdflib.term.Literal
+- Barrow Island
+- null
+- null
+: admin1code: 08
+  admin2code: .nan
+  admin3code: .nan
+  admin4code: .nan
+  alternatenames: "BWB,Barrou,Barrow Island,Barroweiland,Ile de Barrow,Isola di Barrow,Wyspa\
+    \ Barrowa,ba luo dao,jzyrh barw,\xCEle de Barrow,\u0411\u0430\u0440\u0440\u043E\
+    \u0443,\u062C\u0632\u06CC\u0631\u0647 \u0628\u0627\u0631\u0648,\u5DF4\u7F57\u5C9B"
+  asciiname: Barrow Island
+  certainty: 1.0
+  countrycode: AU
+  countrycode2: .nan
+  dem: 47.0
+  elevation: .nan
+  featureclass: T
+  featurecode: ISL
+  geonameid: 2077062.0
+  latitude: -20.77987
+  longitude: 115.40315
+  modificationdate: '2017-07-18'
+  name: Barrow Island
+  population: 0.0
+  timezone: Australia/Perth
+  x: 12846619.893939769
+  y: -2365649.7094376967
+? !!python/object/apply:rdflib.term.Literal
+- Brisbane
+- null
+- null
+: admin1code: '04'
+  admin2code: '31000'
+  admin3code: .nan
+  admin4code: .nan
+  alternatenames: "BNE,Bresbens,Brisbane,Brisbane City,Brisbano,Brisbehn,Brisben,Brisbena,Brisbenas,Brisbin,Brismpein,Brizbejn,Brysben,Br\u0117\
+    sbens,Pu-li-su-pan,Pu-l\xEE-s\u1E73\u0302-p\xE2n,beulijeubeon,brisabena,brisben,brisbena,brizabana,brizbeni,brsbyn,brysban,bryzbn,bryzbyn,bryzbyyn,bu\
+    \ li si ban,bu li si ben,burisuben,pirispen,\u039C\u03C0\u03C1\u03AF\u03C3\u03BC\
+    \u03C0\u03B5\u03CA\u03BD,\u0411\u0440\u0438\u0437\u0431\u0435\u0439\u043D,\u0411\
+    \u0440\u0438\u0437\u0431\u0435\u0458\u043D,\u0411\u0440\u0438\u0441\u0431\u0435\
+    \u043D,\u0411\u0440\u0438\u0441\u0431\u044D\u043D,\u0411\u0440\u044B\u0441\u0431\
+    \u0435\u043D,\u05D1\u05E8\u05D9\u05D6\u05D1\u05D9\u05D9\u05DF,\u05D1\u05E8\u05D9\
+    \u05D6\u05D1\u05DF,\u0628\u0631\u0633\u0628\u06CC\u0646,\u0628\u0631\u0649\u0633\
+    \u0628\u0627\u0646,\u0628\u0631\u064A\u0632\u0628\u0646,\u0628\u0631\u06CC\u0632\
+    \u0628\u0646,\u0628\u0631\u06CC\u0632\u0628\u06CC\u0646,\u0628\u0631\u06CC\u0632\
+    \u0628\u06CE\u0646,\u092C\u094D\u0930\u093F\u0938\u092C\u0947\u0928,\u092C\u094D\
+    \u0930\u093F\u0938\u094D\u092C\u0947\u0928,\u09AC\u09CD\u09B0\u09BF\u09B8\u09AC\
+    \u09C7\u09A8,\u0A2C\u0A4D\u0A30\u0A3F\u0A1C\u0A3C\u0A2C\u0A28,\u0BAA\u0BBF\u0BB0\
+    \u0BBF\u0BB8\u0BCD\u0BAA\u0BC7\u0BA9\u0BCD,\u0C2C\u0C4D\u0C30\u0C3F\u0C38\u0C4D\
+    \u0C2C\u0C47\u0C28\u0C4D,\u0CAC\u0CCD\u0CB0\u0CBF\u0CB8\u0CCD\u0CAC\u0CC7\u0CA8\
+    \u0CCD\u200C,\u0D2C\u0D4D\u0D30\u0D3F\u0D38\u0D4D\u0D2C\u0D46\u0D2F\u0D4D\u0D7B\
+    ,\u0E1A\u0E23\u0E34\u0E2A\u0E40\u0E1A\u0E19,\u1018\u101B\u1005\u103A\u1005\u1018\
+    \u102D\u1014\u103A\u1038\u1019\u103C\u102D\u102F\u1037,\u10D1\u10E0\u10D8\u10D6\
+    \u10D1\u10D4\u10DC\u10D8,\u1265\u122D\u12DD\u1260\u1295,\u30D6\u30EA\u30B9\u30D9\
+    \u30F3,\u5E03\u91CC\u53F8\u73ED,\u5E03\u91CC\u65AF\u672C,\u5E03\u91CC\u65AF\u73ED\
+    ,\uBE0C\uB9AC\uC988\uBC88"
+  asciiname: Brisbane
+  certainty: 1.0
+  countrycode: AU
+  countrycode2: .nan
+  dem: 27.0
+  elevation: .nan
+  featureclass: P
+  featurecode: PPLA
+  geonameid: 2174003.0
+  latitude: -27.46794
+  longitude: 153.02809
+  modificationdate: '2019-09-05'
+  name: Brisbane
+  population: 2189878.0
+  timezone: Australia/Brisbane
+  x: 17035009.05586724
+  y: -3182057.302364425
+? !!python/object/apply:rdflib.term.Literal
+- Canberra
+- null
+- null
+: admin1code: '01'
+  admin2code: .nan
+  admin3code: .nan
+  admin4code: .nan
+  alternatenames: "CBR,Camberra,Canberra,Canberrah,Kamberra,Kambra,Kampera,Kanapera,Kanbera,Kanbero,Kanberr,Kanberra,Kanberrae,Kanberre,Kanb\xE9\
+    rra,Kham-phi-la,Kh\xE2m-ph\xEC-l\xE0,K\u0101napera,kaenbeola,kainabara,kainberra,kan\
+    \ pei la,kanabera,kanbra,kanpara,kenabera,kyanabara,kyanabera,kyanbera,kynbra,k\u02BC\
+    anbera,qnbrh,\u039A\u03B1\u03BC\u03C0\u03AD\u03C1\u03B1,\u041A\u0430\u043D\u0431\
+    \u0435\u0440\u0430,\u041A\u0430\u043D\u0431\u0435\u0440\u0440\xE6,\u041A\u0430\
+    \u043D\u0431\u0435\u0440\u0440\u0430,\u041A\u0430\u043D\u0431\u0435\u0440\u0440\
+    \u0435,\u041A\u0430\u043D\u0431\u0454\u0440\u0430,\u053F\u0561\u0576\u0562\u0565\
+    \u0580\u0580\u0561,\u05E7\u05D0\u05E0\u05D1\u05E2\u05E8\u05D0,\u05E7\u05E0\u05D1\
+    \u05E8\u05D4,\u0643\u0627\u0646\u0628\u0631\u0627,\u06A9\u0627\u0646\u0628\u0631\
+    \u0627,\u06A9\u0627\u0646\u0628\u06CE\u0631\u0627,\u06A9\u06CC\u0646\u0628\u0631\
+    \u0627,\u0915\u0945\u0928\u092C\u0947\u0930\u093E,\u0915\u0948\u0928\u092C\u0930\
+    \u093E,\u0915\u0948\u0928\u094D\u092C\u0947\u0930\u094D\u0930\u093E,\u0915\u094D\
+    \u092F\u093E\u0928\u092C\u0930\u093E,\u0995\u09CD\u09AF\u09BE\u09A8\u09AC\u09C7\
+    \u09B0\u09BE,\u0A15\u0A48\u0A28\u0A2C\u0A30\u0A3E,\u0B15\u0B3E\u0B28\u0B2C\u0B47\
+    \u0B30\u0B3E,\u0B95\u0BBE\u0BA9\u0BCD\u0BAA\u0BB0\u0BBE,\u0D15\u0D3E\u0D7B\u0D2C\
+    \u0D31,\u0D9A\u0DD0\u0DB1\u0DCA\u0DB6\u0DBB\u0DCF,\u0E41\u0E04\u0E19\u0E40\u0E1A\
+    \u0E2D\u0E23\u0E4C\u0E23\u0E32,\u0F41\u0F53\u0F0B\u0F54\u0F7A\u0F0B\u0F62\u0F0D\
+    ,\u10D9\u10D0\u10DC\u10D1\u10D4\u10E0\u10D0,\u12AB\u1295\u1260\u122B,\u30AD\u30E3\
+    \u30F3\u30D9\u30E9,\u574E\u57F9\u62C9,\u582A\u57F9\u62C9,\uCE94\uBC84\uB77C"
+  asciiname: Canberra
+  certainty: 1.0
+  countrycode: AU
+  countrycode2: .nan
+  dem: 571.0
+  elevation: .nan
+  featureclass: P
+  featurecode: PPLC
+  geonameid: 2172517.0
+  latitude: -35.28346
+  longitude: 149.12807
+  modificationdate: '2019-09-05'
+  name: Canberra
+  population: 367752.0
+  timezone: Australia/Sydney
+  x: 16600860.815383658
+  y: -4202469.259409627
+? !!python/object/apply:rdflib.term.Literal
+- Clermont
+- null
+- null
+: admin1code: '04'
+  admin2code: '33980'
+  admin3code: .nan
+  admin4code: .nan
+  alternatenames: "CMQ,Clermont,Klermont,\u041A\u043B\u0435\u0440\u043C\u043E\u043D\
+    \u0442"
+  asciiname: Clermont
+  certainty: 1.0
+  countrycode: AU
+  countrycode2: .nan
+  dem: 262.0
+  elevation: .nan
+  featureclass: P
+  featurecode: PPL
+  geonameid: 2171365.0
+  latitude: -22.82407
+  longitude: 147.63635
+  modificationdate: '2019-07-18'
+  name: Clermont
+  population: 3401.0
+  timezone: Australia/Brisbane
+  x: 16434803.304577515
+  y: -2610756.6998380846
+? !!python/object/apply:rdflib.term.Literal
+- Coober Pedy
+- null
+- null
+: admin1code: '05'
+  admin2code: '41330'
+  admin3code: .nan
+  admin4code: .nan
+  alternatenames: "CPD,Kuber-Pedi,\u041A\u0443\u0431\u0435\u0440-\u041F\u0435\u0434\
+    \u0438"
+  asciiname: Coober Pedy
+  certainty: 1.0
+  countrycode: AU
+  countrycode2: .nan
+  dem: 227.0
+  elevation: .nan
+  featureclass: P
+  featurecode: PPL
+  geonameid: 2073985.0
+  latitude: -29.01415
+  longitude: 134.75495
+  modificationdate: '2019-07-18'
+  name: Coober Pedy
+  population: 2106.0
+  timezone: Australia/Adelaide
+  x: 15000852.415873043
+  y: -3377447.1361565394
+? !!python/object/apply:rdflib.term.Literal
+- Darwin
+- null
+- null
+: admin1code: '03'
+  admin2code: '71000'
+  admin3code: .nan
+  admin4code: .nan
+  alternatenames: "DRW,Daarwin,Darvin,Darvina,Darvinas,Darvino,Darwin,D\u0101rvina,Ntargouin,Palmerston,Port\
+    \ Darwin,da er wen,da er wen gang,dar win,dara'u'ina,daravina,darvina,darvini,darwyn,dau~in,dawin,drwwyn,tarvin,\u039D\
+    \u03C4\u03AC\u03C1\u03B3\u03BF\u03C5\u03B9\u03BD,\u0414\u0430\u0440\u0432\u0438\
+    \u043D,\u0414\u0430\u0440\u0432\u0456\u043D,\u0534\u0561\u0580\u057E\u056B\u0576\
+    ,\u05D3\u05D0\u05E8\u05D5\u05D5\u05D9\u05DF,\u05D3\u05E8\u05D5\u05D5\u05D9\u05DF\
+    ,\u062F\u0627\u0631\u0648\u064A\u0646,\u062F\u0627\u0631\u0648\u06CC\u0646,\u062F\
+    \u0627\u0631\u0648\u06CC\u0646\u060C \u0642\u0648\u0632\u0626\u06CC \u062A\u0648\
+    \u067E\u0631\u0627\u0642\u200C\u0644\u0627\u0631\u06CC,\u0688\u0627\u0631\u0648\
+    \u0646,\u0921\u093E\u0930\u094D\u0935\u093F\u0928,\u09A1\u09BE\u09B0\u0989\u0987\
+    \u09A8,\u0A21\u0A3E\u0A30\u0A35\u0A3F\u0A28,\u0B9F\u0BBE\u0BB0\u0BCD\u0BB5\u0BBF\
+    \u0BA9\u0BCD,\u0D21\u0D3E\u0D7C\u0D35\u0D3F\u0D7B,\u0E14\u0E32\u0E23\u0E4C\u0E27\
+    \u0E34\u0E19,\u1012\u102B\u101D\u1004\u103A\u1019\u103C\u102D\u102F\u1037,\u10D3\
+    \u10D0\u10E0\u10D5\u10D8\u10DC\u10D8,\u30C0\u30FC\u30A6\u30A3\u30F3,\u8FBE\u5C14\
+    \u6587,\u8FBE\u5C14\u6587\u6E2F,\uB2E4\uC708"
+  asciiname: Darwin
+  certainty: 1.0
+  countrycode: AU
+  countrycode2: .nan
+  dem: 31.0
+  elevation: .nan
+  featureclass: P
+  featurecode: PPLA
+  geonameid: 2073124.0
+  latitude: -12.46113
+  longitude: 130.84185
+  modificationdate: '2019-09-05'
+  name: Darwin
+  population: 129062.0
+  timezone: Australia/Darwin
+  x: 14565248.11644988
+  y: -1398233.4770949637
+? !!python/object/apply:rdflib.term.Literal
+- Dotswood
+- null
+- null
+: admin1code: '04'
+  admin2code: '32310'
+  admin3code: .nan
+  admin4code: .nan
+  alternatenames: .nan
+  asciiname: Dotswood
+  certainty: 1.0
+  countrycode: AU
+  countrycode2: .nan
+  dem: 293.0
+  elevation: .nan
+  featureclass: P
+  featurecode: PPL
+  geonameid: 11745899.0
+  latitude: -19.62383
+  longitude: 146.28957
+  modificationdate: '2019-07-18'
+  name: Dotswood
+  population: 192.0
+  timezone: Australia/Brisbane
+  x: 16284880.440766947
+  y: -2228521.2662049006
+? !!python/object/apply:rdflib.term.Literal
+- Dubbo
+- null
+- null
+: admin1code: '02'
+  admin2code: '18230'
+  admin3code: .nan
+  admin4code: .nan
+  alternatenames: "DBO,Dabbo,Dabo,Dubbo,dabbo,dabo,deobo,dubbo,dwbw,\u0414\u0430\u0431\
+    \u0431\u043E,\u0414\u0430\u0431\u043E,\u05D3\u05D5\u05D1\u05D5,\u062F\u0648\u0628\
+    \u0648,\u062F\u06C6\u0628\u0628\u06C6,\u0688\u0628\u0648,\u0688\u0648\u0628\u0648\
+    ,\u0921\u0941\u092C\u094D\u092C\u094B,\u0926\u092C\u094D\u092C\u094B,\u10D3\u10D0\
+    \u10D1\u10DD,\u12F1\u1266,\uB354\uBCF4"
+  asciiname: Dubbo
+  certainty: 1.0
+  countrycode: AU
+  countrycode2: .nan
+  dem: 264.0
+  elevation: .nan
+  featureclass: P
+  featurecode: PPL
+  geonameid: 2168305.0
+  latitude: -32.24295
+  longitude: 148.60484
+  modificationdate: '2019-07-18'
+  name: Dubbo
+  population: 39863.0
+  timezone: Australia/Sydney
+  x: 16542615.11821589
+  y: -3795244.010065665
+? !!python/object/apply:rdflib.term.Literal
+- Echuca
+- null
+- null
+: admin1code: '07'
+  admin2code: '21370'
+  admin3code: .nan
+  admin4code: .nan
+  alternatenames: "ECH,Echuca,Ichuka,ai chu ka,akwka,\u0418\u0447\u0443\u043A\u0430\
+    ,\u0627\u06A9\u0648\u06A9\u0627,\u57C3\u695A\u5361"
+  asciiname: Echuca
+  certainty: 1.0
+  countrycode: AU
+  countrycode2: .nan
+  dem: 100.0
+  elevation: .nan
+  featureclass: P
+  featurecode: PPL
+  geonameid: 2167817.0
+  latitude: -36.14057
+  longitude: 144.75185
+  modificationdate: '2019-07-18'
+  name: Echuca
+  population: 13927.0
+  timezone: Australia/Melbourne
+  x: 16113702.233384315
+  y: -4319980.866032901
+? !!python/object/apply:rdflib.term.Literal
+- Enngonia
+- null
+- null
+: admin1code: '02'
+  admin2code: '11150'
+  admin3code: .nan
+  admin4code: .nan
+  alternatenames: Enngonia
+  asciiname: Enngonia
+  certainty: 1.0
+  countrycode: AU
+  countrycode2: .nan
+  dem: 137.0
+  elevation: .nan
+  featureclass: P
+  featurecode: PPL
+  geonameid: 2167300.0
+  latitude: -29.32227
+  longitude: 145.84713
+  modificationdate: '2019-07-18'
+  name: Enngonia
+  population: 153.0
+  timezone: Australia/Sydney
+  x: 16235628.24526037
+  y: -3416728.0777548016
+? !!python/object/apply:rdflib.term.Literal
+- Franklin
+- null
+- null
+: admin1code: '06'
+  admin2code: '63010'
+  admin3code: .nan
+  admin4code: .nan
+  alternatenames: Franklin
+  asciiname: Franklin
+  certainty: 1.0
+  countrycode: AU
+  countrycode2: .nan
+  dem: 18.0
+  elevation: 18.0
+  featureclass: P
+  featurecode: PPL
+  geonameid: 2166160.0
+  latitude: -43.08884
+  longitude: 147.00906
+  modificationdate: '2019-07-18'
+  name: Franklin
+  population: 1061.0
+  timezone: Australia/Hobart
+  x: 16364973.701197803
+  y: -5325503.991748953
+? !!python/object/apply:rdflib.term.Literal
+- Geraldton
+- null
+- null
+: admin1code: 08
+  admin2code: '53800'
+  admin3code: .nan
+  admin4code: .nan
+  alternatenames: "Dzeraldton,Dzheral'dton,Dzheraldton,GET,Geraldton,grldtwn,jeleolteon,jeraldatana,jeraruton,jie\
+    \ la er dun,jyraldtwn,\u040F\u0435\u0440\u0430\u043B\u0434\u0442\u043E\u043D,\u0414\
+    \u0436\u0435\u0440\u0430\u043B\u0434\u0442\u043E\u043D,\u0414\u0436\u0435\u0440\
+    \u0430\u043B\u044C\u0434\u0442\u043E\u043D,\u05D2\u05E8\u05DC\u05D3\u05D8\u05D5\
+    \u05DF,\u062C\u064A\u0631\u0627\u0644\u062F\u062A\u0648\u0646,\u062C\u06CC\u0631\
+    \u0627\u0644\u0688\u0679\u0646,\u062C\u06CE\u0631\u0627\u06B5\u062F\u062A\u0646\
+    ,\u06AF\u06CC\u0631\u0627\u0644\u0688\u0679\u0646,\u091C\u0947\u0930\u093E\u0932\
+    \u094D\u0921\u091F\u0928,\u10EF\u10D4\u10E0\u10D0\u10DA\u10D3\u10E2\u10DD\u10DC\
+    \u10D8,\u30B8\u30A7\u30E9\u30EB\u30C8\u30F3,\u5091\u62C9\u723E\u9813,\uC81C\uB7F4\
+    \uD134"
+  asciiname: Geraldton
+  certainty: 1.0
+  countrycode: AU
+  countrycode2: .nan
+  dem: 4.0
+  elevation: .nan
+  featureclass: P
+  featurecode: PPLA2
+  geonameid: 2070998.0
+  latitude: -28.77897
+  longitude: 114.61459
+  modificationdate: '2019-07-20'
+  name: Geraldton
+  population: 26872.0
+  timezone: Australia/Perth
+  x: 12758837.796279825
+  y: -3347543.834550503
+? !!python/object/apply:rdflib.term.Literal
+- Hobart
+- null
+- null
+: admin1code: '06'
+  admin2code: '62810'
+  admin3code: .nan
+  admin4code: .nan
+  alternatenames: "Chompart,Gobart,HBA,Hobart,Hobart Town,Hobarta,Hobartas,Hobarto,Hobat,Hob\u0101\
+    rta,Khobart,Khoubart,he ba te,hobarata,hobart,hobarta,hobateu,hobato,hopart,huo\
+    \ ba te,hwbart,\u03A7\u03CC\u03BC\u03C0\u03B1\u03C1\u03C4,\u0413\u043E\u0431\u0430\
+    \u0440\u0442,\u0425\u043E\u0431\u0430\u0440\u0442,\u0425\u043E\u0443\u0431\u0430\
+    \u0440\u0442,\u05D4\u05D5\u05D1\u05D0\u05E8\u05D8,\u0647\u0648\u0628\u0627\u0631\
+    \u062A,\u06C1\u0627\u0628\u0631\u0679,\u06C1\u0648\u0628\u0627\u0631\u0679,\u0939\
+    \u094B\u092C\u093E\u0930\u094D\u091F,\u0A39\u0A4B\u0A2C\u0A3E\u0A30\u0A1F,\u0B39\
+    \u0B4B\u0B2C\u0B3E\u0B30\u0B4D\u0B1F,\u0BB9\u0BCB\u0BAA\u0BBE\u0BB0\u0BCD\u0B9F\
+    \u0BCD,\u0DC4\u0DDD\u0DB6\u0DCF\u0DBB\u0DCA\u0DA7\u0DCA,\u0E42\u0E2E\u0E1A\u0E32\
+    \u0E23\u0E4C\u0E15,\u0F67\u0F7C\u0F0B\u0F66\u0FA6\u0F62\u0F0B\u0F50\u0F7A\u0F0D\
+    ,\u10F0\u10DD\u10D1\u10D0\u10E0\u10E2\u10D8,\u30DB\u30D0\u30FC\u30C8,\u8377\u5DF4\
+    \u7279,\u970D\u5DF4\u7279,\uD638\uBC14\uD2B8"
+  asciiname: Hobart
+  certainty: 1.0
+  countrycode: AU
+  countrycode2: .nan
+  dem: 1.0
+  elevation: .nan
+  featureclass: P
+  featurecode: PPLA
+  geonameid: 2163355.0
+  latitude: -42.87936
+  longitude: 147.32941
+  modificationdate: '2019-09-05'
+  name: Hobart
+  population: 216656.0
+  timezone: Australia/Hobart
+  x: 16400634.900073428
+  y: -5293627.198972611
+? !!python/object/apply:rdflib.term.Literal
+- Horsham
+- null
+- null
+: admin1code: '07'
+  admin2code: '23190'
+  admin3code: .nan
+  admin4code: .nan
+  alternatenames: "HSM,Horsham,Khorshem,horshemi,\u0425\u043E\u0440\u0448\u0435\u043C\
+    ,\u06BE\u06C6\u0631\u0634\u06D5\u0645\u060C \u06A4\u06CC\u06A9\u062A\u06C6\u0631\
+    \u06CC\u0627,\u06C1\u0648\u0631\u0634\u0645,\u06C1\u0648\u0634\u06CC\u0645\u060C\
+    \ \u0648\u06A9\u0679\u0648\u0631\u06CC\u06C1,\u10F0\u10DD\u10E0\u10E8\u10D4\u10DB\
+    \u10D8"
+  asciiname: Horsham
+  certainty: 1.0
+  countrycode: AU
+  countrycode2: .nan
+  dem: 133.0
+  elevation: .nan
+  featureclass: P
+  featurecode: PPL
+  geonameid: 2163055.0
+  latitude: -36.71131
+  longitude: 142.19981
+  modificationdate: '2019-07-18'
+  name: Horsham
+  population: 14233.0
+  timezone: Australia/Melbourne
+  x: 15829610.440100253
+  y: -4398943.153953198
+? !!python/object/apply:rdflib.term.Literal
+- Innamincka
+- null
+- null
+: admin1code: '05'
+  admin2code: .nan
+  admin3code: .nan
+  admin4code: .nan
+  alternatenames: "INM,Innamincka,Innaminka,\u0418\u043D\u043D\u0430\u043C\u0438\u043D\
+    \u043A\u0430"
+  asciiname: Innamincka
+  certainty: 1.0
+  countrycode: AU
+  countrycode2: .nan
+  dem: 58.0
+  elevation: .nan
+  featureclass: P
+  featurecode: PPL
+  geonameid: 2162701.0
+  latitude: -27.7434
+  longitude: 140.73933
+  modificationdate: '2019-07-18'
+  name: Innamincka
+  population: 149.0
+  timezone: Australia/Adelaide
+  x: 15667030.55018649
+  y: -3216660.7501260634
+? !!python/object/apply:rdflib.term.Literal
+- Innisfail
+- null
+- null
+: admin1code: '04'
+  admin2code: '32260'
+  admin3code: .nan
+  admin4code: .nan
+  alternatenames: "Geraldton,IFL,Innisfail,aynysfyl,\u0625\u064A\u0646\u064A\u0633\
+    \u0641\u064A\u0644"
+  asciiname: Innisfail
+  certainty: 1.0
+  countrycode: AU
+  countrycode2: .nan
+  dem: 13.0
+  elevation: .nan
+  featureclass: P
+  featurecode: PPL
+  geonameid: 2162683.0
+  latitude: -17.52209
+  longitude: 146.03102
+  modificationdate: '2019-07-18'
+  name: Innisfail
+  population: 1241.0
+  timezone: Australia/Brisbane
+  x: 16256098.78642235
+  y: -1981685.0394947706
+? !!python/object/apply:rdflib.term.Literal
+- Ivanhoe
+- null
+- null
+: admin1code: '02'
+  admin2code: '11700'
+  admin3code: .nan
+  admin4code: .nan
+  alternatenames: Ivanhoe
+  asciiname: Ivanhoe
+  certainty: 1.0
+  countrycode: AU
+  countrycode2: .nan
+  dem: 88.0
+  elevation: .nan
+  featureclass: P
+  featurecode: PPL
+  geonameid: 2162548.0
+  latitude: -32.90038
+  longitude: 144.3015
+  modificationdate: '2019-07-18'
+  name: Ivanhoe
+  population: 382.0
+  timezone: Australia/Sydney
+  x: 16063569.500705566
+  y: -3882088.5274449955
+? !!python/object/apply:rdflib.term.Literal
+- Kalbarri
+- null
+- null
+: admin1code: 08
+  admin2code: '56790'
+  admin3code: .nan
+  admin4code: .nan
+  alternatenames: KAX,Kalbarri
+  asciiname: Kalbarri
+  certainty: 1.0
+  countrycode: AU
+  countrycode2: .nan
+  dem: 13.0
+  elevation: .nan
+  featureclass: P
+  featurecode: PPL
+  geonameid: 2068835.0
+  latitude: -27.7105
+  longitude: 114.16505
+  modificationdate: '2019-07-18'
+  name: Kalbarri
+  population: 2602.0
+  timezone: Australia/Perth
+  x: 12708795.232388616
+  y: -3212523.249841711
+? !!python/object/apply:rdflib.term.Literal
+- Karratha
+- null
+- null
+: admin1code: 08
+  admin2code: '54310'
+  admin3code: .nan
+  admin4code: .nan
+  alternatenames: "KTA,Karatha,Karratha,\u05E7\u05E8\u05D0\u05D8\u05D4,\u10D9\u10D0\
+    \u10E0\u10D0\u10D7\u10D0"
+  asciiname: Karratha
+  certainty: 1.0
+  countrycode: AU
+  countrycode2: .nan
+  dem: 3.0
+  elevation: .nan
+  featureclass: P
+  featurecode: PPLA2
+  geonameid: 6620339.0
+  latitude: -20.73765
+  longitude: 116.84629
+  modificationdate: '2019-07-20'
+  name: Karratha
+  population: 11728.0
+  timezone: Australia/Perth
+  x: 13007269.503883174
+  y: -2360623.5043465192
+? !!python/object/apply:rdflib.term.Literal
+- Mackay
+- null
+- null
+: admin1code: '04'
+  admin2code: '34770'
+  admin3code: .nan
+  admin4code: .nan
+  alternatenames: "MKY,Mackay,Makaj,Makej,Makkaj,maekai,mai kai,make,makkai,mkay,mkay\
+    \  kwyynzlnd,\u041C\u0430\u043A\u0430\u0439,\u041C\u0430\u043A\u0430\u0458,\u041C\
+    \u0430\u043A\u0435\u0439,\u041C\u0430\u043A\u043A\u0430\u0439,\u05DE\u05D0\u05E7\
+    \u05D0\u05D9,\u0645\u06A9\u0627\u0626\u06D2\u060C \u06A9\u0648\u0626\u0646\u0632\
+    \u0644\u06CC\u0646\u0688,\u0645\u06A9\u0627\u06CC,\u0645\u06A9\u0627\u06CC\u060C\
+    \ \u06A9\u0648\u0626\u06CC\u0646\u0632\u0644\u0646\u062F,\u0645\u06CC\u06A9\u06D2\
+    ,\u0645\u06D5\u06A9\u0627\u06CC\u060C \u06A9\u0648\u06CC\u0646\u0632\u0644\u06D5\
+    \u0646\u062F,\u092E\u0915\u0947,\u10DB\u10D0\u10D9\u10D0\u10D8,\u30DE\u30C3\u30AB\
+    \u30A4,\u9EA5\u51F1,\uB9E4\uCE74\uC774"
+  asciiname: Mackay
+  certainty: 1.0
+  countrycode: AU
+  countrycode2: .nan
+  dem: 2.0
+  elevation: .nan
+  featureclass: P
+  featurecode: PPLA2
+  geonameid: 2159220.0
+  latitude: -21.15345
+  longitude: 149.16554
+  modificationdate: '2019-07-21'
+  name: Mackay
+  population: 74219.0
+  timezone: Australia/Brisbane
+  x: 16605031.956703681
+  y: -2410185.294640758
+? !!python/object/apply:rdflib.term.Literal
+- Marree
+- null
+- null
+: admin1code: '05'
+  admin2code: .nan
+  admin3code: .nan
+  admin4code: .nan
+  alternatenames: "Hergott Springs,Maree,Marree,Marri,RRE,\u041C\u0430\u0440\u0440\
+    \u0438"
+  asciiname: Marree
+  certainty: 1.0
+  countrycode: AU
+  countrycode2: .nan
+  dem: 44.0
+  elevation: .nan
+  featureclass: P
+  featurecode: PPL
+  geonameid: 2066901.0
+  latitude: -29.65121
+  longitude: 138.07098
+  modificationdate: '2019-07-18'
+  name: Marree
+  population: 150.0
+  timezone: Australia/Adelaide
+  x: 15369991.18692826
+  y: -3458794.4684667857
+? !!python/object/apply:rdflib.term.Literal
+- Meekatharra
+- null
+- null
+: admin1code: 08
+  admin2code: '55250'
+  admin3code: .nan
+  admin4code: .nan
+  alternatenames: "MKR,Meekatharra,Mikatarra,\u041C\u0438\u043A\u0430\u0442\u0430\u0440\
+    \u0440\u0430"
+  asciiname: Meekatharra
+  certainty: 1.0
+  countrycode: AU
+  countrycode2: .nan
+  dem: 518.0
+  elevation: .nan
+  featureclass: P
+  featurecode: PPL
+  geonameid: 2066591.0
+  latitude: -26.59524
+  longitude: 118.49393
+  modificationdate: '2019-07-18'
+  name: Meekatharra
+  population: 962.0
+  timezone: Australia/Perth
+  x: 13190683.949693803
+  y: -3072992.7113688295
+? !!python/object/apply:rdflib.term.Literal
+- Melbourne
+- null
+- null
+: admin1code: '07'
+  admin2code: '24600'
+  admin3code: .nan
+  admin4code: .nan
+  alternatenames: "MEL,Mel'burn,Melbourne,Melbourne City,Melbournum,Melburn,Melburna,Melburnas,Melburno,Melvourni,mel\
+    \ beirn,melaborna,melbeoleun,melbeon,melporn,meruborun,mlbwrn,mo er ben,\u039C\
+    \u03B5\u03BB\u03B2\u03BF\u03CD\u03C1\u03BD\u03B7,\u041C\u0435\u043B\u0431\u0443\
+    \u0440\u043D,\u041C\u0435\u043B\u0431\u044A\u0440\u043D,\u041C\u0435\u043B\u044C\
+    \u0431\u0443\u0440\u043D,\u05DE\u05DC\u05D1\u05D5\u05E8\u05DF,\u0645\u0644\u0628\
+    \u0648\u0631\u0646,\u0645\u06D0\u0644\u0628\u06C7\u0631\u0646,\u092E\u0947\u0932\
+    \u092C\u094B\u0930\u094D\u0928,\u0BAE\u0BC6\u0BB2\u0BCD\u0BAA\u0BCB\u0BB0\u0BCD\
+    \u0BA9\u0BCD,\u0E40\u0E21\u0E25\u0E40\u0E1A\u0E34\u0E23\u0E4C\u0E19,\u0F58\u0F7A\
+    \u0F62\u0F0B\u0F56\u0F74\u0F53,\u30E1\u30EB\u30DC\u30EB\u30F3,\u58A8\u5C14\u672C\
+    ,\u58A8\u723E\u672C,\uBA5C\uBC84\uB978,\uBA5C\uBC88"
+  asciiname: Melbourne
+  certainty: 1.0
+  countrycode: AU
+  countrycode2: .nan
+  dem: 58.0
+  elevation: .nan
+  featureclass: P
+  featurecode: PPLA
+  geonameid: 2158177.0
+  latitude: -37.814
+  longitude: 144.96332
+  modificationdate: '2019-07-20'
+  name: Melbourne
+  population: 4246375.0
+  timezone: Australia/Melbourne
+  x: 16137242.966102371
+  y: -4553183.47010652
+? !!python/object/apply:rdflib.term.Literal
+- Mildura
+- null
+- null
+: admin1code: '07'
+  admin2code: '24780'
+  admin3code: .nan
+  admin4code: .nan
+  alternatenames: "MQL,Mild'jura,Mildjura,Mildura,mi er du la,mildiura,mildula,mildyura,mirude~yura,mldwra,myldwrh,\u041C\
+    \u0438\u043B\u0434\u044C\u044E\u0440\u0430,\u041C\u0438\u043B\u0434\u0458\u0443\
+    \u0440\u0430,\u0544\u056B\u056C\u0564\u0578\u0582\u0580\u0561,\u05DE\u05D9\u05DC\
+    \u05D3\u05D5\u05E8\u05D4,\u0645\u0644\u062F\u0648\u0631\u0627,\u0645\u0644\u0688\
+    \u0648\u0631\u06C1,\u0645\u06CC\u0644\u062F\u06C6\u0631\u0627,\u092E\u093F\u0932\
+    \u094D\u0921\u094D\u092F\u0941\u0930\u093E,\u10DB\u10D8\u10DA\u10D3\u10D8\u10E3\
+    \u10E0\u10D0,\u30DF\u30EB\u30C7\u30E5\u30FC\u30E9,\u7C73\u723E\u675C\u62C9,\uBC00\
+    \uB450\uB77C"
+  asciiname: Mildura
+  certainty: 1.0
+  countrycode: AU
+  countrycode2: .nan
+  dem: 56.0
+  elevation: .nan
+  featureclass: P
+  featurecode: PPL
+  geonameid: 2157698.0
+  latitude: -34.18551
+  longitude: 142.16251
+  modificationdate: '2019-07-18'
+  name: Mildura
+  population: 32936.0
+  timezone: Australia/Melbourne
+  x: 15825458.22309366
+  y: -4053738.7698728954
+? !!python/object/apply:rdflib.term.Literal
+- Newman
+- null
+- null
+: admin1code: 08
+  admin2code: '53220'
+  admin3code: .nan
+  admin4code: .nan
+  alternatenames: "Mount Newman,N'jumen,Newman,ZNE,\u041D\u044C\u044E\u043C\u0435\u043D\
+    ,\u0646\u06CC\u0648\u0645\u06CC\u0646\u060C \u0645\u063A\u0631\u0628\u06CC \u0622\
+    \u0633\u0679\u0631\u06CC\u0644\u06CC\u0627"
+  asciiname: Newman
+  certainty: 1.0
+  countrycode: AU
+  countrycode2: .nan
+  dem: 543.0
+  elevation: .nan
+  featureclass: P
+  featurecode: PPL
+  geonameid: 2064768.0
+  latitude: -23.35644
+  longitude: 119.73553
+  modificationdate: '2019-07-18'
+  name: Newman
+  population: 12316.0
+  timezone: Australia/Perth
+  x: 13328898.22946273
+  y: -2675181.3191775805
+? !!python/object/apply:rdflib.term.Literal
+- Pamayu
+- null
+- null
+: admin1code: '03'
+  admin2code: '70420'
+  admin3code: .nan
+  admin4code: .nan
+  alternatenames: .nan
+  asciiname: Pamayu
+  certainty: 1.0
+  countrycode: AU
+  countrycode2: .nan
+  dem: 256.0
+  elevation: .nan
+  featureclass: P
+  featurecode: PPL
+  geonameid: 11776538.0
+  latitude: -18.30564
+  longitude: 133.82378
+  modificationdate: '2019-07-18'
+  name: Pamayu
+  population: 203.0
+  timezone: Australia/Darwin
+  x: 14897195.045631068
+  y: -2073354.377900196
+? !!python/object/apply:rdflib.term.Literal
+- Perth
+- null
+- null
+: admin1code: 08
+  admin2code: '57080'
+  admin3code: .nan
+  admin4code: .nan
+  alternatenames: "PER,Peairt,Pert,Perta,Pertas,Perth,Perth City,Perthia,Perto,Per\xFE\
+    ,Pirth,Purt,P\u0113rta,byrth,part,partha,pasu,peoseu,pert,pheirth,po si,prt,prt',prt\u06BE\
+    \  as\u0679rylya,\u03A0\u03B5\u03C1\u03B8,\u041F\u0435\u0440\u0442,\u041F\u0435\
+    \u0440\u0442\u04BB,\u041F\u044A\u0440\u0442,\u054A\u0565\u0580\u0569,\u05E4\u05E8\
+    \u05EA',\u0628\u064A\u0631\u062B,\u067E\u0631\u062A,\u067E\u0631\u062A\u06BE\u060C\
+    \ \u0622\u0633\u0679\u0631\u06CC\u0644\u06CC\u0627,\u092A\u0930\u094D\u0925,\u0BAA\
+    \u0BC7\u0BB0\u0BCD\u0BA4\u0BCD,\u0CAA\u0CB0\u0CCD\u0CA4\u0CCD,\u0D2A\u0D46\u0D7C\
+    \u0D24\u0D4D\u0D24\u0D4D,\u0E40\u0E1E\u0E34\u0E23\u0E4C\u0E17,\u1015\u102B\u1037\
+    \u101E\u103A\u1019\u103C\u102D\u102F\u1037,\u10DE\u10D4\u10E0\u10D7\u10D8,\u30D1\
+    \u30FC\u30B9,\u73C0\u65AF,\uD37C\uC2A4"
+  asciiname: Perth
+  certainty: 1.0
+  countrycode: AU
+  countrycode2: .nan
+  dem: 46.0
+  elevation: .nan
+  featureclass: P
+  featurecode: PPLA
+  geonameid: 2063523.0
+  latitude: -31.95224
+  longitude: 115.8614
+  modificationdate: '2019-09-05'
+  name: Perth
+  population: 1896548.0
+  timezone: Australia/Perth
+  x: 12897632.050595786
+  y: -3757043.016425792
+? !!python/object/apply:rdflib.term.Literal
+- Sydney
+- null
+- null
+: admin1code: '02'
+  admin2code: .nan
+  admin3code: .nan
+  admin4code: .nan
+  alternatenames: "SYD,Sanctus Dionysius,Sedniejos,Sek-na,Sidnef,Sidnei,Sidnej,Sidneja,Sidnejo,Sidnejus,Sidney,Sidne\xFD\
+    ,Sidni,Sidn\xE9y,Sidn\u0117jus,Sit-ni,Sit-n\xEC,Syd,Sydneium,Sydney,Sydney City,S\xE9\
+    k-n\xE0\u0324,S\xEDdney,S\xEEdney,S\u0117dniejos,citni,shidoni,sidani,sideuni,sidnei,sidni,sidniy,sydny,xi\
+    \ ni,xue li,\u03A3\u03AF\u03B4\u03BD\u03B5\u03CB,\u0421\u0438\u0434\u043D\u0435\
+    \u0438,\u0421\u0438\u0434\u043D\u0435\u0439,\u0421\u0438\u0434\u043D\u0435\u0458\
+    ,\u0421\u0438\u0434\u043D\u0438,\u0421\u0456\u0434\u043D\u0435\u0439,\u0421\u0456\
+    \u0434\u043D\u0456,\u054D\u056B\u0564\u0576\u0565\u0575,\u05E1\u05D9\u05D3\u05E0\
+    \u05D9,\u0633\u064A\u062F\u0646\u0649,\u0633\u064A\u062F\u0646\u064A,\u0633\u0688\
+    \u0646\u06CC,\u0633\u06CC\u062F\u0646\u06CC,\u0723\u071D\u0715\u0722\u071D,\u0938\
+    \u093F\u0921\u0928\u0940,\u0938\u093F\u0921\u094D\u0928\u0940,\u0938\u093F\u0926\
+    \u094D\u0928\u0940,\u09B8\u09BF\u09A1\u09A8\u09BF,\u0A38\u0A3F\u0A21\u0A28\u0A40\
+    ,\u0AB8\u0AC0\u0AA1\u0AA8\u0AC0,\u0B9A\u0BBF\u0B9F\u0BCD\u0BA9\u0BBF,\u0C38\u0C3F\
+    \u0C21\u0C4D\u0C28\u0C40,\u0CB8\u0CBF\u0CA1\u0CCD\u0CA8\u0CBF,\u0D38\u0D3F\u0D21\
+    \u0D4D\u0D28\u0D3F,\u0DC3\u0DD2\u0DA9\u0DCA\u0DB1\u0DD2,\u0E0B\u0E34\u0E14\u0E19\
+    \u0E35\u0E22\u0E4C,\u0F66\u0F72\u0F51\u0F0B\u0F53\u0F7A\u0F0D,\u1006\u1005\u103A\
+    \u1012\u1014\u102E\u1019\u103C\u102D\u102F\u1037,\u10E1\u10D8\u10D3\u10DC\u10D4\
+    \u10D8,\u1232\u12F5\u1292,\u179F\u17CA\u17B8\u178A\u1793\u17B8\u1799\u17CF,\u30B7\
+    \u30C9\u30CB\u30FC,\u6089\u5C3C,\u96EA\u68A8,\uC2DC\uB4DC\uB2C8"
+  asciiname: Sydney
+  certainty: 1.0
+  countrycode: AU
+  countrycode2: .nan
+  dem: 1.0
+  elevation: .nan
+  featureclass: P
+  featurecode: PPLA
+  geonameid: 2147714.0
+  latitude: -33.86785
+  longitude: 151.20732
+  modificationdate: '2019-09-05'
+  name: Sydney
+  population: 4627345.0
+  timezone: Australia/Sydney
+  x: 16832321.86661557
+  y: -4011071.282613469
+? !!python/object/apply:rdflib.term.Literal
+- Tennant Creek
+- null
+- null
+: admin1code: '03'
+  admin2code: '70420'
+  admin3code: .nan
+  admin4code: .nan
+  alternatenames: "TCA,Tennant Creek,Tennant-Krik,tnnt kryk,tnnt qryq,\u0422\u0435\
+    \u043D\u043D\u0430\u043D\u0442-\u041A\u0440\u0438\u043A,\u0422\u0435\u043D\u043D\
+    \u0430\u043D\u0442-\u041A\u0440\u0456\u043A,\u05D8\u05E0\u05E0\u05D8 \u05E7\u05E8\
+    \u05D9\u05E7,\u062A\u0646\u0646\u062A \u06A9\u0631\u06CC\u06A9,\u10E2\u10D4\u10DC\
+    \u10D0\u10DC\u10E2-\u10D9\u10E0\u10D8\u10D9\u10D8"
+  asciiname: Tennant Creek
+  certainty: 1.0
+  countrycode: AU
+  countrycode2: .nan
+  dem: 364.0
+  elevation: .nan
+  featureclass: P
+  featurecode: PPL
+  geonameid: 2060436.0
+  latitude: -19.6497
+  longitude: 134.19147
+  modificationdate: '2019-07-18'
+  name: Tennant Creek
+  population: 3166.0
+  timezone: Australia/Darwin
+  x: 14938126.109200848
+  y: -2231578.928985186
+? !!python/object/apply:rdflib.term.Literal
+- Ti Tree
+- null
+- null
+: admin1code: '03'
+  admin2code: '70620'
+  admin3code: .nan
+  admin4code: .nan
+  alternatenames: .nan
+  asciiname: Ti Tree
+  certainty: 1.0
+  countrycode: AU
+  countrycode2: .nan
+  dem: 551.0
+  elevation: .nan
+  featureclass: P
+  featurecode: PPLX
+  geonameid: 8348158.0
+  latitude: -22.13382
+  longitude: 133.41395
+  modificationdate: '2019-07-18'
+  name: Ti Tree
+  population: 80.0
+  timezone: Australia/Darwin
+  x: 14851572.978719259
+  y: -2527599.5234467615
+? !!python/object/apply:rdflib.term.Literal
+- Ungarie
+- null
+- null
+: admin1code: '02'
+  admin2code: '10800'
+  admin3code: .nan
+  admin4code: .nan
+  alternatenames: Ungarie,Village of Ungarie
+  asciiname: Ungarie
+  certainty: 1.0
+  countrycode: AU
+  countrycode2: .nan
+  dem: 226.0
+  elevation: .nan
+  featureclass: P
+  featurecode: PPL
+  geonameid: 2145497.0
+  latitude: -33.64166
+  longitude: 146.97502
+  modificationdate: '2019-07-18'
+  name: Ungarie
+  population: 542.0
+  timezone: Australia/Sydney
+  x: 16361184.385731198
+  y: -3980786.612400873
+? !!python/object/apply:rdflib.term.Literal
+- Wagga Wagga
+- null
+- null
+: admin1code: '02'
+  admin2code: '17750'
+  admin3code: .nan
+  admin4code: .nan
+  alternatenames: "Uaga Uaga,Uoaqqa-Uoaqqa,Uogga Uogga,Uogga-Uogga,Vaga Vaga,Vagga-Vagga,Voga\
+    \ Voga,WGA,Wagga,Wagga Wagga,uaga-uaga,u~ogau~oga,vagga vagga,waga waga,wagawaga,waqa\
+    \ waqa,wo jia wo jia,\u0412\u0430\u0433\u0433\u0430-\u0412\u0430\u0433\u0433\u0430\
+    ,\u0412\u043E\u0433\u0430 \u0412\u043E\u0433\u0430,\u0423\u0430\u0433\u0430 \u0423\
+    \u0430\u0433\u0430,\u0423\u043E\u0433\u0433\u0430 \u0423\u043E\u0433\u0433\u0430\
+    ,\u0423\u043E\u0433\u0433\u0430-\u0423\u043E\u0433\u0433\u0430,\u05D5\u05D5\u05D0\
+    \u05D2\u05D4 \u05D5\u05D5\u05D0\u05D2\u05D4,\u0648\u0627\u0642\u0627 \u0648\u0627\
+    \u0642\u0627,\u0648\u0627\u06AF\u0627 \u0648\u0627\u06AF\u0627,\u0935\u093E\u0917\
+    \u094D\u0917\u093E \u0935\u093E\u0917\u094D\u0917\u093E,\u10E3\u10D0\u10D2\u10D0\
+    -\u10E3\u10D0\u10D2\u10D0,\u30A6\u30A9\u30AC\u30A6\u30A9\u30AC,\u6C83\u52A0\u6C83\
+    \u52A0,\uC640\uAC00\uC640\uAC00"
+  asciiname: Wagga Wagga
+  certainty: 1.0
+  countrycode: AU
+  countrycode2: .nan
+  dem: 201.0
+  elevation: .nan
+  featureclass: P
+  featurecode: PPLX
+  geonameid: 2145110.0
+  latitude: -35.12577
+  longitude: 147.35375
+  modificationdate: '2019-07-18'
+  name: Wagga Wagga
+  population: 7690.0
+  timezone: Australia/Sydney
+  x: 16403344.416479334
+  y: -4180985.9470630507
+? !!python/object/apply:rdflib.term.Literal
+- Wee Waa
+- null
+- null
+: admin1code: '02'
+  admin2code: '15750'
+  admin3code: .nan
+  admin4code: .nan
+  alternatenames: WEW,Wee Waa
+  asciiname: Wee Waa
+  certainty: 1.0
+  countrycode: AU
+  countrycode2: .nan
+  dem: 194.0
+  elevation: .nan
+  featureclass: P
+  featurecode: PPL
+  geonameid: 2144220.0
+  latitude: -30.2266
+  longitude: 149.44041
+  modificationdate: '2019-07-18'
+  name: Wee Waa
+  population: 2072.0
+  timezone: Australia/Sydney
+  x: 16635630.345138028
+  y: -3532710.541780632
+? !!python/object/apply:rdflib.term.Literal
+- Willowra
+- null
+- null
+: admin1code: '03'
+  admin2code: '70620'
+  admin3code: .nan
+  admin4code: .nan
+  alternatenames: .nan
+  asciiname: Willowra
+  certainty: 1.0
+  countrycode: AU
+  countrycode2: .nan
+  dem: 467.0
+  elevation: .nan
+  featureclass: P
+  featurecode: PPLX
+  geonameid: 8348656.0
+  latitude: -21.2632
+  longitude: 132.61911
+  modificationdate: '2019-07-18'
+  name: Willowra
+  population: 284.0
+  timezone: Australia/Darwin
+  x: 14763091.794657135
+  y: -2423290.189351992

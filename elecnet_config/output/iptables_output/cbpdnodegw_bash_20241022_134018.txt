@@ -1,0 +1,76 @@
+test@cbpdnodegw# (echo "IPTABLES" && iptables -S)
+IPTABLES
+-P INPUT DROP
+-P FORWARD DROP
+-P OUTPUT DROP
+-N Coober_Pedy#C#WindNode
+-N Echuca#C#SolarNode
+-N Kalbarri#C#WindNode
+-N Newman#C#SolarNode
+-N Pamayu#C#SolarNode
+-A INPUT -p ospf -j ACCEPT
+-A INPUT -p udp -m udp --dport 33434:33474 -j REJECT --reject-with icmp-port-unreachable
+-A FORWARD -m conntrack --ctstate RELATED,ESTABLISHED -j ACCEPT
+-A FORWARD -j Coober_Pedy#C#WindNode
+-A FORWARD -s 10.25.70.54/32 -d 10.25.71.23/32 -j ACCEPT
+-A FORWARD -s 10.25.71.23/32 -d 10.25.70.54/32 -j ACCEPT
+-A FORWARD -d 10.25.78.157/32 -j ACCEPT
+-A FORWARD -d 10.25.77.230/32 -j ACCEPT
+-A FORWARD -d 10.25.73.68/32 -j ACCEPT
+-A FORWARD -d 10.25.86.112/32 -j ACCEPT
+-A FORWARD -d 10.25.81.198/32 -j ACCEPT
+-A FORWARD -d 10.25.80.54/32 -j ACCEPT
+-A FORWARD -d 10.25.79.198/32 -j ACCEPT
+-A FORWARD -d 10.25.74.213/32 -j ACCEPT
+-A FORWARD -d 10.25.113.152/32 -j ACCEPT
+-A FORWARD -d 10.25.114.214/32 -j ACCEPT
+-A FORWARD -d 10.25.117.153/32 -j ACCEPT
+-A OUTPUT -p ospf -j ACCEPT
+-A OUTPUT -p icmp -m icmp --icmp-type 11 -j ACCEPT
+-A OUTPUT -p icmp -m icmp --icmp-type 3 -j ACCEPT
+-A Coober_Pedy#C#WindNode -j Newman#C#SolarNode
+-A Coober_Pedy#C#WindNode -j Pamayu#C#SolarNode
+-A Coober_Pedy#C#WindNode -j Kalbarri#C#WindNode
+-A Coober_Pedy#C#WindNode -j Echuca#C#SolarNode
+-A Echuca#C#SolarNode -s 10.25.113.152/32 -j ACCEPT
+-A Echuca#C#SolarNode -s 10.25.114.214/32 -j ACCEPT
+-A Echuca#C#SolarNode -s 10.25.117.153/32 -j ACCEPT
+-A Kalbarri#C#WindNode -s 10.25.79.198/32 -j ACCEPT
+-A Kalbarri#C#WindNode -s 10.25.74.213/32 -j ACCEPT
+-A Newman#C#SolarNode -s 10.25.78.157/32 -j ACCEPT
+-A Newman#C#SolarNode -s 10.25.77.230/32 -j ACCEPT
+-A Newman#C#SolarNode -s 10.25.73.68/32 -j ACCEPT
+-A Pamayu#C#SolarNode -s 10.25.86.112/32 -j ACCEPT
+-A Pamayu#C#SolarNode -s 10.25.81.198/32 -j ACCEPT
+-A Pamayu#C#SolarNode -s 10.25.80.54/32 -j ACCEPT
+test@cbpdnodegw# (echo "configuration file" && cat usr.local.etc.frr/frr.conf)
+configuration file
+interface eth0
+    ip address 10.25.197.146
+    ip ospf network point-to-point
+    ip ospf hello-interval 2
+    ip ospf dead-interval 6
+    ip ospf retransmit-interval 5
+!
+interface eth1
+    ip address 10.25.70.37
+    ip ospf network point-to-point
+    ip ospf hello-interval 2
+    ip ospf dead-interval 6
+    ip ospf retransmit-interval 5
+!
+interface eth2
+    ip address 10.25.71.88
+    ip ospf network point-to-point
+    ip ospf hello-interval 2
+    ip ospf dead-interval 6
+    ip ospf retransmit-interval 5
+!
+
+router ospf
+  router-id 10.25.197.146
+  network 10.25.197.146/25 area 0
+  network 10.25.70.37/25 area 0
+  network 10.25.71.88/25 area 0
+  ospf opaque-lsa
+!
