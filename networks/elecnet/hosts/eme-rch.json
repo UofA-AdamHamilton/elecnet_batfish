@@ -1,0 +1,11 @@
+{
+    "hostname": "eme-rch",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.23.196.181/29",
+            "gateway": "10.23.196.180"
+        }
+    },
+    "iptablesFile": "iptables/eme-rch.iptables"
+}

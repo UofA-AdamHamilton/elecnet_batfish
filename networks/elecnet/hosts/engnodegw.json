@@ -1,0 +1,23 @@
+{
+    "hostname": "engnodegw",
+    "hostInterfaces": {
+        "eth2": {
+            "name": "eth2",
+            "prefix": "10.25.32.37/24"
+        },
+        "eth3": {
+            "name": "eth3",
+            "prefix": "10.25.39.11/24"
+        },
+        "eth1": {
+            "name": "eth1",
+            "prefix": "10.25.34.154/25"
+        },
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.25.231.221/24"
+        }
+    },
+    "overlay": true,
+    "iptablesFile": "iptables/engnodegw.iptables"
+}

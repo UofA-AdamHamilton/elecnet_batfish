@@ -1,0 +1,15 @@
+{
+    "hostname": "milnodec",
+    "hostInterfaces": {
+        "eth1": {
+            "name": "eth1",
+            "prefix": "10.24.204.90/24",
+            "gateway": null
+        },
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.24.201.153/24"
+        }
+    },
+    "iptablesFile": "iptables/milnodec.iptables"
+}

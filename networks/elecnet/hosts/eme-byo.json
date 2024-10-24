@@ -1,0 +1,11 @@
+{
+    "hostname": "eme-byo",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.23.119.122/29",
+            "gateway": "10.23.119.124"
+        }
+    },
+    "iptablesFile": "iptables/eme-byo.iptables"
+}

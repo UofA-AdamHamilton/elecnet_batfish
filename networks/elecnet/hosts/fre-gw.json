@@ -1,0 +1,19 @@
+{
+    "hostname": "fre-gw",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.22.35.139/29"
+        },
+        "eth1": {
+            "name": "eth1",
+            "prefix": "10.23.33.124/29"
+        },
+        "eth2": {
+            "name": "eth2",
+            "prefix": "10.22.56.77/29"
+        }
+    },
+    "overlay": true,
+    "iptablesFile": "iptables/fre-gw.iptables"
+}

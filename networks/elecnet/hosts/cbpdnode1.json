@@ -1,0 +1,11 @@
+{
+    "hostname": "cbpdnode1",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.25.69.221/25",
+            "gateway": "10.25.69.164"
+        }
+    },
+    "iptablesFile": "iptables/cbpdnode1.iptables"
+}

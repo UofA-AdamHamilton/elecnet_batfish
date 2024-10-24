@@ -1,0 +1,11 @@
+{
+    "hostname": "nmnnode0",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.25.75.67/25",
+            "gateway": "10.25.75.120"
+        }
+    },
+    "iptablesFile": "iptables/nmnnode0.iptables"
+}

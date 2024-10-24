@@ -1,0 +1,11 @@
+{
+    "hostname": "ess-sun",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.23.115.34/29",
+            "gateway": "10.23.115.37"
+        }
+    },
+    "iptablesFile": "iptables/ess-sun.iptables"
+}

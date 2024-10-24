@@ -1,0 +1,23 @@
+{
+    "hostname": "inkanodegw",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.25.196.172/24"
+        },
+        "eth1": {
+            "name": "eth1",
+            "prefix": "10.25.3.194/24"
+        },
+        "eth2": {
+            "name": "eth2",
+            "prefix": "10.25.7.137/25"
+        },
+        "eth3": {
+            "name": "eth3",
+            "prefix": "10.25.4.129/25"
+        }
+    },
+    "overlay": true,
+    "iptablesFile": "iptables/inkanodegw.iptables"
+}

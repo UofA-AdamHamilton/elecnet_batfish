@@ -1,0 +1,23 @@
+{
+    "hostname": "trinodegw",
+    "hostInterfaces": {
+        "eth2": {
+            "name": "eth2",
+            "prefix": "10.25.146.124/24"
+        },
+        "eth1": {
+            "name": "eth1",
+            "prefix": "10.25.144.222/25"
+        },
+        "eth3": {
+            "name": "eth3",
+            "prefix": "10.25.150.50/25"
+        },
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.25.209.8/25"
+        }
+    },
+    "overlay": true,
+    "iptablesFile": "iptables/trinodegw.iptables"
+}

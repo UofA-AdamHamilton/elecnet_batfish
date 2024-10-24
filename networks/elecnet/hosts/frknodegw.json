@@ -1,0 +1,23 @@
+{
+    "hostname": "frknodegw",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.25.250.70/25"
+        },
+        "eth1": {
+            "name": "eth1",
+            "prefix": "10.25.56.145/24"
+        },
+        "eth2": {
+            "name": "eth2",
+            "prefix": "10.25.58.254/24"
+        },
+        "eth3": {
+            "name": "eth3",
+            "prefix": "10.25.59.155/24"
+        }
+    },
+    "overlay": true,
+    "iptablesFile": "iptables/frknodegw.iptables"
+}

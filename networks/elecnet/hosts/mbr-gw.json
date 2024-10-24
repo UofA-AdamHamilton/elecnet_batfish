@@ -1,0 +1,19 @@
+{
+    "hostname": "mbr-gw",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.23.147.29/29"
+        },
+        "eth1": {
+            "name": "eth1",
+            "prefix": "10.22.140.50/29"
+        },
+        "eth2": {
+            "name": "eth2",
+            "prefix": "10.22.137.254/29"
+        }
+    },
+    "overlay": true,
+    "iptablesFile": "iptables/mbr-gw.iptables"
+}

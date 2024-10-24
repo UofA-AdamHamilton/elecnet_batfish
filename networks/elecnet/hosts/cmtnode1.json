@@ -1,0 +1,11 @@
+{
+    "hostname": "cmtnode1",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.25.152.147/25",
+            "gateway": "10.25.152.247"
+        }
+    },
+    "iptablesFile": "iptables/cmtnode1.iptables"
+}

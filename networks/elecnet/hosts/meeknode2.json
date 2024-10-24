@@ -1,0 +1,11 @@
+{
+    "hostname": "meeknode2",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.25.137.132/24",
+            "gateway": "10.25.137.183"
+        }
+    },
+    "iptablesFile": "iptables/meeknode2.iptables"
+}

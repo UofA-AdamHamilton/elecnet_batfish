@@ -1,0 +1,19 @@
+{
+    "hostname": "edn-gw",
+    "hostInterfaces": {
+        "eth2": {
+            "name": "eth2",
+            "prefix": "10.23.4.150/29"
+        },
+        "eth1": {
+            "name": "eth1",
+            "prefix": "10.22.11.75/29"
+        },
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.22.19.93/29"
+        }
+    },
+    "overlay": true,
+    "iptablesFile": "iptables/edn-gw.iptables"
+}

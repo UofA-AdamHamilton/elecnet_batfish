@@ -1,0 +1,15 @@
+{
+    "hostname": "mkynodec",
+    "hostInterfaces": {
+        "eth1": {
+            "name": "eth1",
+            "prefix": "10.24.125.240/23",
+            "gateway": null
+        },
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.24.120.180/24"
+        }
+    },
+    "iptablesFile": "iptables/mkynodec.iptables"
+}

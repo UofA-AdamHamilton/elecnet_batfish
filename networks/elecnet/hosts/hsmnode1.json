@@ -1,0 +1,11 @@
+{
+    "hostname": "hsmnode1",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.25.50.174/25",
+            "gateway": "10.25.50.234"
+        }
+    },
+    "iptablesFile": "iptables/hsmnode1.iptables"
+}

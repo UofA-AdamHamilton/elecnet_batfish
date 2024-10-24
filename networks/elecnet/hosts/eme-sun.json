@@ -1,0 +1,11 @@
+{
+    "hostname": "eme-sun",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.23.115.35/29",
+            "gateway": "10.23.115.37"
+        }
+    },
+    "iptablesFile": "iptables/eme-sun.iptables"
+}

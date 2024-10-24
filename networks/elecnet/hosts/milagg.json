@@ -1,0 +1,31 @@
+{
+    "hostname": "milagg",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.20.202.166/30"
+        },
+        "eth1": {
+            "name": "eth1",
+            "prefix": "10.20.209.98/30"
+        },
+        "eth2": {
+            "name": "eth2",
+            "prefix": "10.25.243.13/25"
+        },
+        "eth3": {
+            "name": "eth3",
+            "prefix": "10.24.201.93/24"
+        },
+        "eth4": {
+            "name": "eth4",
+            "prefix": "10.24.204.253/24"
+        },
+        "eth5": {
+            "name": "eth5",
+            "prefix": "10.25.241.152/24"
+        }
+    },
+    "overlay": true,
+    "iptablesFile": "iptables/milagg.iptables"
+}

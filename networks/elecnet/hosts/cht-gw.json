@@ -1,0 +1,19 @@
+{
+    "hostname": "cht-gw",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.22.136.26/29"
+        },
+        "eth1": {
+            "name": "eth1",
+            "prefix": "10.23.142.132/29"
+        },
+        "eth2": {
+            "name": "eth2",
+            "prefix": "10.22.151.115/29"
+        }
+    },
+    "overlay": true,
+    "iptablesFile": "iptables/cht-gw.iptables"
+}

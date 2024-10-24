@@ -1,0 +1,66 @@
+-P INPUT DROP
+-P FORWARD DROP
+-P OUTPUT DROP
+-N ANYWHERE
+-N Clermont#B#SolarNode
+-N Echuca#C#SolarNode
+-N Innamincka#A#SolarNode
+-N Innisfail#B#WindNode
+-N Ivanhoe#B#WindNode
+-N Meekatharra#B#SolarNode
+-N Meekatharra#B#SolarNode#
+-N Newman#C#SolarNode
+-N Pamayu#C#SolarNode
+-N Ti_Tree#B#SolarNode
+-N Ungarie#B#SolarNode
+-N Wee_Waa#B#SolarNode
+-A INPUT -p ospf -j ACCEPT
+-A INPUT -p udp -m udp --dport 33434:33474 -j REJECT --reject-with icmp-port-unreachable
+-A FORWARD -m conntrack --ctstate RELATED,ESTABLISHED -j ACCEPT
+-A FORWARD -j Meekatharra#B#SolarNode
+-A FORWARD -j ANYWHERE
+-A OUTPUT -p ospf -j ACCEPT
+-A OUTPUT -p icmp -m icmp --icmp-type 11 -j ACCEPT
+-A OUTPUT -p icmp -m icmp --icmp-type 3 -j ACCEPT
+-A ANYWHERE -j Meekatharra#B#SolarNode#
+-A Clermont#B#SolarNode -s 10.25.152.147/32 -j ACCEPT
+-A Clermont#B#SolarNode -s 10.25.153.51/32 -j ACCEPT
+-A Clermont#B#SolarNode -s 10.25.152.93/32 -j ACCEPT
+-A Echuca#C#SolarNode -s 10.25.118.162/32 -j ACCEPT
+-A Echuca#C#SolarNode -s 10.25.119.99/32 -j ACCEPT
+-A Echuca#C#SolarNode -s 10.25.116.3/32 -j ACCEPT
+-A Innamincka#A#SolarNode -s 10.25.3.141/32 -j ACCEPT
+-A Innamincka#A#SolarNode -s 10.25.7.174/32 -j ACCEPT
+-A Innamincka#A#SolarNode -s 10.25.4.154/32 -j ACCEPT
+-A Innisfail#B#WindNode -s 10.25.154.31/32 -j ACCEPT
+-A Innisfail#B#WindNode -s 10.25.157.77/32 -j ACCEPT
+-A Ivanhoe#B#WindNode -s 10.25.161.89/32 -j ACCEPT
+-A Ivanhoe#B#WindNode -s 10.25.167.110/32 -j ACCEPT
+-A Meekatharra#B#SolarNode -j Pamayu#C#SolarNode
+-A Meekatharra#B#SolarNode -j Wee_Waa#B#SolarNode
+-A Meekatharra#B#SolarNode -j Clermont#B#SolarNode
+-A Meekatharra#B#SolarNode -j Newman#C#SolarNode
+-A Meekatharra#B#SolarNode -j Innamincka#A#SolarNode
+-A Meekatharra#B#SolarNode -j Innisfail#B#WindNode
+-A Meekatharra#B#SolarNode -j Ungarie#B#SolarNode
+-A Meekatharra#B#SolarNode -j Ti_Tree#B#SolarNode
+-A Meekatharra#B#SolarNode -j Ivanhoe#B#WindNode
+-A Meekatharra#B#SolarNode -j Echuca#C#SolarNode
+-A Meekatharra#B#SolarNode# -s 10.25.137.132/32 -j ACCEPT
+-A Meekatharra#B#SolarNode# -s 10.25.140.173/32 -j ACCEPT
+-A Meekatharra#B#SolarNode# -s 10.25.136.147/32 -j ACCEPT
+-A Newman#C#SolarNode -s 10.25.72.213/32 -j ACCEPT
+-A Newman#C#SolarNode -s 10.25.77.221/32 -j ACCEPT
+-A Newman#C#SolarNode -s 10.25.75.67/32 -j ACCEPT
+-A Pamayu#C#SolarNode -s 10.25.85.77/32 -j ACCEPT
+-A Pamayu#C#SolarNode -s 10.25.86.136/32 -j ACCEPT
+-A Pamayu#C#SolarNode -s 10.25.85.191/32 -j ACCEPT
+-A Ti_Tree#B#SolarNode -s 10.25.144.226/32 -j ACCEPT
+-A Ti_Tree#B#SolarNode -s 10.25.146.204/32 -j ACCEPT
+-A Ti_Tree#B#SolarNode -s 10.25.150.16/32 -j ACCEPT
+-A Ungarie#B#SolarNode -s 10.25.166.117/32 -j ACCEPT
+-A Ungarie#B#SolarNode -s 10.25.164.5/32 -j ACCEPT
+-A Ungarie#B#SolarNode -s 10.25.165.10/32 -j ACCEPT
+-A Wee_Waa#B#SolarNode -s 10.25.163.44/32 -j ACCEPT
+-A Wee_Waa#B#SolarNode -s 10.25.165.165/32 -j ACCEPT
+-A Wee_Waa#B#SolarNode -s 10.25.160.57/32 -j ACCEPT

@@ -1,0 +1,11 @@
+{
+    "hostname": "infnode1",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.25.154.31/24",
+            "gateway": "10.25.154.156"
+        }
+    },
+    "iptablesFile": "iptables/infnode1.iptables"
+}

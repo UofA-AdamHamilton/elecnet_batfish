@@ -7,7 +7,7 @@ from pathlib import Path
 import json
 import ipaddress
 
-INPUT_DIR = Path("/Users/adamhamilton/Postdoc/CodingProjects/elecnet_batfish-1/elecnet_config/output/iptables_output")
+INPUT_DIR = Path("/Users/adamhamilton/Postdoc/CodingProjects/elecnet_batfish-1/elecnet_config/output/config_output")
 OUTPUT_DIR = Path("networks/elecnet/")
 
 # Parse commands and responses
@@ -24,11 +24,6 @@ for filename in INPUT_DIR.glob("*.txt"):
                 cmds.setdefault(hostname, {})
                 cmds[hostname][command] = response
             hostname, command = match.groups()
-            print('matchy matchy')
-            print(match.groups())
-            print('responsy responsy')
-            print(response)
-            print(' ')
             response = ""
         else:
             response += line
@@ -83,16 +78,7 @@ def defaultroute_sh_gateway(cmd: str) -> str:
 (OUTPUT_DIR / "hosts").mkdir(parents=True, exist_ok=True)
 (OUTPUT_DIR / "iptables").mkdir(parents=True, exist_ok=True)
 
-for i in cmds:
-    print(i)
-print('')
-
 for hostname in cmds:
-    print(hostname)
-    print(cmds[hostname])
-    print(cmds[hostname]['(echo "configuration file" && cat usr.local.etc.frr/frr.conf)'])
-    print(' ')
-
     addr = json.loads(cmds[hostname]["ip --json addr"])
     router = False
     # Router config in the cumulus-linux format https://batfish.readthedocs.io/en/latest/formats.html#cumulus-linux

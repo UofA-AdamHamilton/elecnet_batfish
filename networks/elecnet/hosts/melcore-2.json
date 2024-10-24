@@ -1,0 +1,35 @@
+{
+    "hostname": "melcore-2",
+    "hostInterfaces": {
+        "eth5": {
+            "name": "eth5",
+            "prefix": "10.20.202.33/30"
+        },
+        "eth6": {
+            "name": "eth6",
+            "prefix": "10.21.215.242/30"
+        },
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.10.9.205/30"
+        },
+        "eth1": {
+            "name": "eth1",
+            "prefix": "10.10.184.21/30"
+        },
+        "eth3": {
+            "name": "eth3",
+            "prefix": "10.22.217.197/29"
+        },
+        "eth4": {
+            "name": "eth4",
+            "prefix": "10.20.202.165/30"
+        },
+        "eth2": {
+            "name": "eth2",
+            "prefix": "10.22.223.93/29"
+        }
+    },
+    "overlay": true,
+    "iptablesFile": "iptables/melcore-2.iptables"
+}

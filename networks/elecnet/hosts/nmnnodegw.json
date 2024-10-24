@@ -1,0 +1,23 @@
+{
+    "hostname": "nmnnodegw",
+    "hostInterfaces": {
+        "eth2": {
+            "name": "eth2",
+            "prefix": "10.25.77.240/24"
+        },
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.25.207.22/25"
+        },
+        "eth1": {
+            "name": "eth1",
+            "prefix": "10.25.72.217/25"
+        },
+        "eth3": {
+            "name": "eth3",
+            "prefix": "10.25.75.120/25"
+        }
+    },
+    "overlay": true,
+    "iptablesFile": "iptables/nmnnodegw.iptables"
+}

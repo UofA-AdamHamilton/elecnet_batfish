@@ -1,0 +1,11 @@
+{
+    "hostname": "echnode2",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.25.118.162/24",
+            "gateway": "10.25.118.175"
+        }
+    },
+    "iptablesFile": "iptables/echnode2.iptables"
+}

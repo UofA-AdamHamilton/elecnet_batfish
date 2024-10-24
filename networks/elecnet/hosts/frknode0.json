@@ -1,0 +1,11 @@
+{
+    "hostname": "frknode0",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.25.56.139/24",
+            "gateway": "10.25.56.145"
+        }
+    },
+    "iptablesFile": "iptables/frknode0.iptables"
+}

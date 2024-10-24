@@ -1,0 +1,11 @@
+{
+    "hostname": "wwanode2",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.25.163.44/24",
+            "gateway": "10.25.163.79"
+        }
+    },
+    "iptablesFile": "iptables/wwanode2.iptables"
+}

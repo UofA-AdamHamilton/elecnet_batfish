@@ -1,0 +1,11 @@
+{
+    "hostname": "eme-brd",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.23.180.211/29",
+            "gateway": "10.23.180.214"
+        }
+    },
+    "iptablesFile": "iptables/eme-brd.iptables"
+}

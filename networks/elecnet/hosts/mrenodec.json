@@ -1,0 +1,15 @@
+{
+    "hostname": "mrenodec",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.24.15.61/23",
+            "gateway": null
+        },
+        "eth1": {
+            "name": "eth1",
+            "prefix": "10.24.29.85/24"
+        }
+    },
+    "iptablesFile": "iptables/mrenodec.iptables"
+}

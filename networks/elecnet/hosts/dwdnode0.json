@@ -1,0 +1,11 @@
+{
+    "hostname": "dwdnode0",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.25.24.65/25",
+            "gateway": "10.25.24.70"
+        }
+    },
+    "iptablesFile": "iptables/dwdnode0.iptables"
+}

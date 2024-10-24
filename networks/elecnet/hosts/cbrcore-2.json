@@ -1,0 +1,31 @@
+{
+    "hostname": "cbrcore-2",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.10.159.74/30"
+        },
+        "eth2": {
+            "name": "eth2",
+            "prefix": "10.22.186.205/29"
+        },
+        "eth3": {
+            "name": "eth3",
+            "prefix": "10.21.170.242/30"
+        },
+        "eth4": {
+            "name": "eth4",
+            "prefix": "10.10.184.22/30"
+        },
+        "eth5": {
+            "name": "eth5",
+            "prefix": "10.20.139.45/30"
+        },
+        "eth1": {
+            "name": "eth1",
+            "prefix": "10.22.184.169/29"
+        }
+    },
+    "overlay": true,
+    "iptablesFile": "iptables/cbrcore-2.iptables"
+}

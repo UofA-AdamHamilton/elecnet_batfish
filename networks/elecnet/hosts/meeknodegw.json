@@ -1,0 +1,23 @@
+{
+    "hostname": "meeknodegw",
+    "hostInterfaces": {
+        "eth1": {
+            "name": "eth1",
+            "prefix": "10.25.137.183/24"
+        },
+        "eth2": {
+            "name": "eth2",
+            "prefix": "10.25.140.169/25"
+        },
+        "eth3": {
+            "name": "eth3",
+            "prefix": "10.25.136.212/25"
+        },
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.25.202.31/24"
+        }
+    },
+    "overlay": true,
+    "iptablesFile": "iptables/meeknodegw.iptables"
+}

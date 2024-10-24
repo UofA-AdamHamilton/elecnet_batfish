@@ -1,0 +1,19 @@
+{
+    "hostname": "brwnodegw",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.25.205.112/24"
+        },
+        "eth1": {
+            "name": "eth1",
+            "prefix": "10.25.15.38/25"
+        },
+        "eth2": {
+            "name": "eth2",
+            "prefix": "10.25.11.96/25"
+        }
+    },
+    "overlay": true,
+    "iptablesFile": "iptables/brwnodegw.iptables"
+}

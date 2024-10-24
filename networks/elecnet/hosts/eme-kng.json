@@ -1,0 +1,11 @@
+{
+    "hostname": "eme-kng",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.23.191.3/29",
+            "gateway": "10.23.191.4"
+        }
+    },
+    "iptablesFile": "iptables/eme-kng.iptables"
+}

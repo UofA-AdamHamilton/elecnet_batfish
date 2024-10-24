@@ -1,0 +1,31 @@
+{
+    "hostname": "gdtnagg",
+    "hostInterfaces": {
+        "eth1": {
+            "name": "eth1",
+            "prefix": "10.20.51.69/30"
+        },
+        "eth4": {
+            "name": "eth4",
+            "prefix": "10.25.202.222/24"
+        },
+        "eth2": {
+            "name": "eth2",
+            "prefix": "10.24.53.86/23"
+        },
+        "eth5": {
+            "name": "eth5",
+            "prefix": "10.25.203.216/25"
+        },
+        "eth3": {
+            "name": "eth3",
+            "prefix": "10.24.59.121/24"
+        },
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.20.56.154/30"
+        }
+    },
+    "overlay": true,
+    "iptablesFile": "iptables/gdtnagg.iptables"
+}

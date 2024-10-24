@@ -1,0 +1,11 @@
+{
+    "hostname": "inkanode0",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.25.7.174/25",
+            "gateway": "10.25.7.137"
+        }
+    },
+    "iptablesFile": "iptables/inkanode0.iptables"
+}

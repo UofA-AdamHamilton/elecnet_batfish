@@ -1,0 +1,15 @@
+{
+    "hostname": "hobnodec",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.24.244.164/23",
+            "gateway": null
+        },
+        "eth1": {
+            "name": "eth1",
+            "prefix": "10.24.225.109/23"
+        }
+    },
+    "iptablesFile": "iptables/hobnodec.iptables"
+}

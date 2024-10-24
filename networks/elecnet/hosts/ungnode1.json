@@ -1,0 +1,11 @@
+{
+    "hostname": "ungnode1",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.25.165.10/25",
+            "gateway": "10.25.165.95"
+        }
+    },
+    "iptablesFile": "iptables/ungnode1.iptables"
+}

@@ -1,0 +1,11 @@
+{
+    "hostname": "ess-tor",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.23.13.98/29",
+            "gateway": "10.23.13.97"
+        }
+    },
+    "iptablesFile": "iptables/ess-tor.iptables"
+}

@@ -1,0 +1,59 @@
+-P INPUT DROP
+-P FORWARD DROP
+-P OUTPUT DROP
+-N Barrow_Island#A#WindNode
+-N Dotswood#A#HydroNode
+-N Enngonia#A#HydroNode
+-N Franklin#A#HydroNode
+-N Horsham#A#WindNode
+-N Innamincka#A#SolarNode
+-N Willowra#A#WindNode
+-A INPUT -p ospf -j ACCEPT
+-A INPUT -p udp -m udp --dport 33434:33474 -j REJECT --reject-with icmp-port-unreachable
+-A FORWARD -m conntrack --ctstate RELATED,ESTABLISHED -j ACCEPT
+-A FORWARD -j Enngonia#A#HydroNode
+-A FORWARD -s 10.25.34.227/32 -d 10.25.32.5/32 -j ACCEPT
+-A FORWARD -s 10.25.34.227/32 -d 10.25.39.81/32 -j ACCEPT
+-A FORWARD -s 10.25.32.5/32 -d 10.25.34.227/32 -j ACCEPT
+-A FORWARD -s 10.25.32.5/32 -d 10.25.39.81/32 -j ACCEPT
+-A FORWARD -s 10.25.39.81/32 -d 10.25.34.227/32 -j ACCEPT
+-A FORWARD -s 10.25.39.81/32 -d 10.25.32.5/32 -j ACCEPT
+-A FORWARD -d 10.25.31.39/32 -j ACCEPT
+-A FORWARD -d 10.25.24.65/32 -j ACCEPT
+-A FORWARD -d 10.25.28.253/32 -j ACCEPT
+-A FORWARD -d 10.25.56.139/32 -j ACCEPT
+-A FORWARD -d 10.25.58.108/32 -j ACCEPT
+-A FORWARD -d 10.25.59.96/32 -j ACCEPT
+-A FORWARD -d 10.25.15.89/32 -j ACCEPT
+-A FORWARD -d 10.25.11.81/32 -j ACCEPT
+-A FORWARD -d 10.25.3.141/32 -j ACCEPT
+-A FORWARD -d 10.25.7.174/32 -j ACCEPT
+-A FORWARD -d 10.25.4.154/32 -j ACCEPT
+-A FORWARD -d 10.25.55.207/32 -j ACCEPT
+-A FORWARD -d 10.25.50.174/32 -j ACCEPT
+-A FORWARD -d 10.25.21.123/32 -j ACCEPT
+-A FORWARD -d 10.25.22.25/32 -j ACCEPT
+-A OUTPUT -p ospf -j ACCEPT
+-A OUTPUT -p icmp -m icmp --icmp-type 11 -j ACCEPT
+-A OUTPUT -p icmp -m icmp --icmp-type 3 -j ACCEPT
+-A Barrow_Island#A#WindNode -s 10.25.15.89/32 -j ACCEPT
+-A Barrow_Island#A#WindNode -s 10.25.11.81/32 -j ACCEPT
+-A Dotswood#A#HydroNode -s 10.25.31.39/32 -j ACCEPT
+-A Dotswood#A#HydroNode -s 10.25.24.65/32 -j ACCEPT
+-A Dotswood#A#HydroNode -s 10.25.28.253/32 -j ACCEPT
+-A Enngonia#A#HydroNode -j Dotswood#A#HydroNode
+-A Enngonia#A#HydroNode -j Franklin#A#HydroNode
+-A Enngonia#A#HydroNode -j Barrow_Island#A#WindNode
+-A Enngonia#A#HydroNode -j Innamincka#A#SolarNode
+-A Enngonia#A#HydroNode -j Horsham#A#WindNode
+-A Enngonia#A#HydroNode -j Willowra#A#WindNode
+-A Franklin#A#HydroNode -s 10.25.56.139/32 -j ACCEPT
+-A Franklin#A#HydroNode -s 10.25.58.108/32 -j ACCEPT
+-A Franklin#A#HydroNode -s 10.25.59.96/32 -j ACCEPT
+-A Horsham#A#WindNode -s 10.25.55.207/32 -j ACCEPT
+-A Horsham#A#WindNode -s 10.25.50.174/32 -j ACCEPT
+-A Innamincka#A#SolarNode -s 10.25.3.141/32 -j ACCEPT
+-A Innamincka#A#SolarNode -s 10.25.7.174/32 -j ACCEPT
+-A Innamincka#A#SolarNode -s 10.25.4.154/32 -j ACCEPT
+-A Willowra#A#WindNode -s 10.25.21.123/32 -j ACCEPT
+-A Willowra#A#WindNode -s 10.25.22.25/32 -j ACCEPT

@@ -1,0 +1,15 @@
+{
+    "hostname": "tncrnodec",
+    "hostInterfaces": {
+        "eth1": {
+            "name": "eth1",
+            "prefix": "10.24.92.191/24",
+            "gateway": null
+        },
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.24.93.191/24"
+        }
+    },
+    "iptablesFile": "iptables/tncrnodec.iptables"
+}

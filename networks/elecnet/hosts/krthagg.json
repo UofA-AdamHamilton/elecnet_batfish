@@ -1,0 +1,31 @@
+{
+    "hostname": "krthagg",
+    "hostInterfaces": {
+        "eth1": {
+            "name": "eth1",
+            "prefix": "10.20.38.46/30"
+        },
+        "eth2": {
+            "name": "eth2",
+            "prefix": "10.25.205.84/24"
+        },
+        "eth3": {
+            "name": "eth3",
+            "prefix": "10.25.207.39/25"
+        },
+        "eth4": {
+            "name": "eth4",
+            "prefix": "10.24.47.10/24"
+        },
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.20.54.82/30"
+        },
+        "eth5": {
+            "name": "eth5",
+            "prefix": "10.24.42.216/24"
+        }
+    },
+    "overlay": true,
+    "iptablesFile": "iptables/krthagg.iptables"
+}

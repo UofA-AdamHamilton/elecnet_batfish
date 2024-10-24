@@ -1,0 +1,11 @@
+{
+    "hostname": "ess-kng",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.23.191.5/29",
+            "gateway": "10.23.191.4"
+        }
+    },
+    "iptablesFile": "iptables/ess-kng.iptables"
+}

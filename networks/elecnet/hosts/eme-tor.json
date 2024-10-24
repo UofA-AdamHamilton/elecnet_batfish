@@ -1,0 +1,11 @@
+{
+    "hostname": "eme-tor",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.23.13.100/29",
+            "gateway": "10.23.13.97"
+        }
+    },
+    "iptablesFile": "iptables/eme-tor.iptables"
+}

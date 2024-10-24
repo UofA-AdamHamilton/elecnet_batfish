@@ -1,0 +1,11 @@
+{
+    "hostname": "wlwnode1",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.25.22.25/25",
+            "gateway": "10.25.22.13"
+        }
+    },
+    "iptablesFile": "iptables/wlwnode1.iptables"
+}

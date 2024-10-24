@@ -1,0 +1,11 @@
+{
+    "hostname": "eme-joo",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.23.39.110/29",
+            "gateway": "10.23.39.108"
+        }
+    },
+    "iptablesFile": "iptables/eme-joo.iptables"
+}

@@ -1,0 +1,31 @@
+{
+    "hostname": "bnecore-1",
+    "hostInterfaces": {
+        "eth3": {
+            "name": "eth3",
+            "prefix": "10.10.65.26/30"
+        },
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.22.115.230/29"
+        },
+        "eth5": {
+            "name": "eth5",
+            "prefix": "10.20.98.66/30"
+        },
+        "eth1": {
+            "name": "eth1",
+            "prefix": "10.21.103.145/30"
+        },
+        "eth4": {
+            "name": "eth4",
+            "prefix": "10.22.106.30/29"
+        },
+        "eth2": {
+            "name": "eth2",
+            "prefix": "10.10.114.98/30"
+        }
+    },
+    "overlay": true,
+    "iptablesFile": "iptables/bnecore-1.iptables"
+}

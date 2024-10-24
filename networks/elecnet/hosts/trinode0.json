@@ -1,0 +1,11 @@
+{
+    "hostname": "trinode0",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.25.144.226/25",
+            "gateway": "10.25.144.222"
+        }
+    },
+    "iptablesFile": "iptables/trinode0.iptables"
+}

@@ -1,0 +1,15 @@
+{
+    "hostname": "dubnodec",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.24.155.40/23",
+            "gateway": null
+        },
+        "eth1": {
+            "name": "eth1",
+            "prefix": "10.24.141.161/23"
+        }
+    },
+    "iptablesFile": "iptables/dubnodec.iptables"
+}

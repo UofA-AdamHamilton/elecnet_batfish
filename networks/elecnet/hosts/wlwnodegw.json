@@ -1,0 +1,19 @@
+{
+    "hostname": "wlwnodegw",
+    "hostInterfaces": {
+        "eth1": {
+            "name": "eth1",
+            "prefix": "10.25.21.72/25"
+        },
+        "eth2": {
+            "name": "eth2",
+            "prefix": "10.25.22.13/25"
+        },
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.25.212.59/25"
+        }
+    },
+    "overlay": true,
+    "iptablesFile": "iptables/wlwnodegw.iptables"
+}

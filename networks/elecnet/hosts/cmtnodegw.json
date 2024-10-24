@@ -1,0 +1,23 @@
+{
+    "hostname": "cmtnodegw",
+    "hostInterfaces": {
+        "eth2": {
+            "name": "eth2",
+            "prefix": "10.25.153.57/25"
+        },
+        "eth3": {
+            "name": "eth3",
+            "prefix": "10.25.152.118/25"
+        },
+        "eth1": {
+            "name": "eth1",
+            "prefix": "10.25.152.247/25"
+        },
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.25.218.111/25"
+        }
+    },
+    "overlay": true,
+    "iptablesFile": "iptables/cmtnodegw.iptables"
+}

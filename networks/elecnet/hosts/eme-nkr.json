@@ -1,0 +1,11 @@
+{
+    "hostname": "eme-nkr",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.23.91.126/29",
+            "gateway": "10.23.91.121"
+        }
+    },
+    "iptablesFile": "iptables/eme-nkr.iptables"
+}

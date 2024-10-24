@@ -1,0 +1,11 @@
+{
+    "hostname": "brwnode1",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.25.15.89/25",
+            "gateway": "10.25.15.38"
+        }
+    },
+    "iptablesFile": "iptables/brwnode1.iptables"
+}

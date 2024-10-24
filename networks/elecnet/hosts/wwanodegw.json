@@ -1,0 +1,23 @@
+{
+    "hostname": "wwanodegw",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.25.230.150/24"
+        },
+        "eth1": {
+            "name": "eth1",
+            "prefix": "10.25.163.79/24"
+        },
+        "eth3": {
+            "name": "eth3",
+            "prefix": "10.25.160.146/24"
+        },
+        "eth2": {
+            "name": "eth2",
+            "prefix": "10.25.165.206/25"
+        }
+    },
+    "overlay": true,
+    "iptablesFile": "iptables/wwanodegw.iptables"
+}

@@ -1,0 +1,27 @@
+{
+    "hostname": "hobagg",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.20.202.34/30"
+        },
+        "eth1": {
+            "name": "eth1",
+            "prefix": "10.20.197.30/30"
+        },
+        "eth2": {
+            "name": "eth2",
+            "prefix": "10.25.250.54/25"
+        },
+        "eth3": {
+            "name": "eth3",
+            "prefix": "10.24.245.204/23"
+        },
+        "eth4": {
+            "name": "eth4",
+            "prefix": "10.24.225.23/23"
+        }
+    },
+    "overlay": true,
+    "iptablesFile": "iptables/hobagg.iptables"
+}

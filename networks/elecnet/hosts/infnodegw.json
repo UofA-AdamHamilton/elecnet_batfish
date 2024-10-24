@@ -1,0 +1,19 @@
+{
+    "hostname": "infnodegw",
+    "hostInterfaces": {
+        "eth1": {
+            "name": "eth1",
+            "prefix": "10.25.154.156/24"
+        },
+        "eth2": {
+            "name": "eth2",
+            "prefix": "10.25.157.82/25"
+        },
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.25.223.93/25"
+        }
+    },
+    "overlay": true,
+    "iptablesFile": "iptables/infnodegw.iptables"
+}

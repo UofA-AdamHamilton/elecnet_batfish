@@ -1,0 +1,19 @@
+{
+    "hostname": "nkr-gw",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.22.93.123/29"
+        },
+        "eth1": {
+            "name": "eth1",
+            "prefix": "10.23.91.121/29"
+        },
+        "eth2": {
+            "name": "eth2",
+            "prefix": "10.22.83.189/29"
+        }
+    },
+    "overlay": true,
+    "iptablesFile": "iptables/nkr-gw.iptables"
+}

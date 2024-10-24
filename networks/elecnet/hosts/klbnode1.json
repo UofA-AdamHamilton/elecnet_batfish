@@ -1,0 +1,11 @@
+{
+    "hostname": "klbnode1",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.25.72.51/25",
+            "gateway": "10.25.72.26"
+        }
+    },
+    "iptablesFile": "iptables/klbnode1.iptables"
+}

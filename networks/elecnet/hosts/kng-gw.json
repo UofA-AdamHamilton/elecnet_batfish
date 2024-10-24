@@ -1,0 +1,19 @@
+{
+    "hostname": "kng-gw",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.23.191.4/29"
+        },
+        "eth1": {
+            "name": "eth1",
+            "prefix": "10.22.184.172/29"
+        },
+        "eth2": {
+            "name": "eth2",
+            "prefix": "10.22.167.226/29"
+        }
+    },
+    "overlay": true,
+    "iptablesFile": "iptables/kng-gw.iptables"
+}

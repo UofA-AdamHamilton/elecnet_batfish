@@ -1,0 +1,35 @@
+{
+    "hostname": "tncragg",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.20.81.6/30"
+        },
+        "eth1": {
+            "name": "eth1",
+            "prefix": "10.20.77.106/30"
+        },
+        "eth2": {
+            "name": "eth2",
+            "prefix": "10.25.211.9/25"
+        },
+        "eth3": {
+            "name": "eth3",
+            "prefix": "10.24.93.221/24"
+        },
+        "eth5": {
+            "name": "eth5",
+            "prefix": "10.25.209.106/25"
+        },
+        "eth4": {
+            "name": "eth4",
+            "prefix": "10.24.92.171/24"
+        },
+        "eth6": {
+            "name": "eth6",
+            "prefix": "10.25.212.47/25"
+        }
+    },
+    "overlay": true,
+    "iptablesFile": "iptables/tncragg.iptables"
+}

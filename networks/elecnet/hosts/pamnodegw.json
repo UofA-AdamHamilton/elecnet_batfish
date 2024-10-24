@@ -1,0 +1,23 @@
+{
+    "hostname": "pamnodegw",
+    "hostInterfaces": {
+        "eth1": {
+            "name": "eth1",
+            "prefix": "10.25.211.99/25"
+        },
+        "eth2": {
+            "name": "eth2",
+            "prefix": "10.25.86.142/25"
+        },
+        "eth3": {
+            "name": "eth3",
+            "prefix": "10.25.85.221/25"
+        },
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.25.85.105/25"
+        }
+    },
+    "overlay": true,
+    "iptablesFile": "iptables/pamnodegw.iptables"
+}

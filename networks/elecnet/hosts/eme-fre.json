@@ -1,0 +1,11 @@
+{
+    "hostname": "eme-fre",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.23.33.126/29",
+            "gateway": "10.23.33.124"
+        }
+    },
+    "iptablesFile": "iptables/eme-fre.iptables"
+}

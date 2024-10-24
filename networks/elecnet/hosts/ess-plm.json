@@ -1,0 +1,11 @@
+{
+    "hostname": "ess-plm",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.23.82.41/29",
+            "gateway": "10.23.82.44"
+        }
+    },
+    "iptablesFile": "iptables/ess-plm.iptables"
+}

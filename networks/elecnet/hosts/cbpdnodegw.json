@@ -1,0 +1,19 @@
+{
+    "hostname": "cbpdnodegw",
+    "hostInterfaces": {
+        "eth1": {
+            "name": "eth1",
+            "prefix": "10.25.69.164/25"
+        },
+        "eth2": {
+            "name": "eth2",
+            "prefix": "10.25.68.57/25"
+        },
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.25.193.77/25"
+        }
+    },
+    "overlay": true,
+    "iptablesFile": "iptables/cbpdnodegw.iptables"
+}

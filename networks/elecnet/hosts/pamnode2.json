@@ -1,0 +1,11 @@
+{
+    "hostname": "pamnode2",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.25.86.136/25",
+            "gateway": "10.25.86.142"
+        }
+    },
+    "iptablesFile": "iptables/pamnode2.iptables"
+}

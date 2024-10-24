@@ -1,0 +1,11 @@
+{
+    "hostname": "ess-cht",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.23.142.133/29",
+            "gateway": "10.23.142.132"
+        }
+    },
+    "iptablesFile": "iptables/ess-cht.iptables"
+}

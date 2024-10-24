@@ -1,0 +1,19 @@
+{
+    "hostname": "hsmnodegw",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.25.243.88/25"
+        },
+        "eth1": {
+            "name": "eth1",
+            "prefix": "10.25.55.186/25"
+        },
+        "eth2": {
+            "name": "eth2",
+            "prefix": "10.25.50.234/25"
+        }
+    },
+    "overlay": true,
+    "iptablesFile": "iptables/hsmnodegw.iptables"
+}

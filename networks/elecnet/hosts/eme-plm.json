@@ -1,0 +1,11 @@
+{
+    "hostname": "eme-plm",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.23.82.42/29",
+            "gateway": "10.23.82.44"
+        }
+    },
+    "iptablesFile": "iptables/eme-plm.iptables"
+}

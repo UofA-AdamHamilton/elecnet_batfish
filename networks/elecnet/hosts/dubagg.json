@@ -1,0 +1,31 @@
+{
+    "hostname": "dubagg",
+    "hostInterfaces": {
+        "eth3": {
+            "name": "eth3",
+            "prefix": "10.25.231.197/24"
+        },
+        "eth2": {
+            "name": "eth2",
+            "prefix": "10.25.230.12/24"
+        },
+        "eth4": {
+            "name": "eth4",
+            "prefix": "10.24.154.248/23"
+        },
+        "eth5": {
+            "name": "eth5",
+            "prefix": "10.24.140.237/23"
+        },
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.20.154.229/30"
+        },
+        "eth1": {
+            "name": "eth1",
+            "prefix": "10.20.132.221/30"
+        }
+    },
+    "overlay": true,
+    "iptablesFile": "iptables/dubagg.iptables"
+}

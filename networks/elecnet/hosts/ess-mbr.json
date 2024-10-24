@@ -1,0 +1,11 @@
+{
+    "hostname": "ess-mbr",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.23.147.28/29",
+            "gateway": "10.23.147.29"
+        }
+    },
+    "iptablesFile": "iptables/ess-mbr.iptables"
+}

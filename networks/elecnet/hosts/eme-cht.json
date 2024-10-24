@@ -1,0 +1,11 @@
+{
+    "hostname": "eme-cht",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.23.142.134/29",
+            "gateway": "10.23.142.132"
+        }
+    },
+    "iptablesFile": "iptables/eme-cht.iptables"
+}

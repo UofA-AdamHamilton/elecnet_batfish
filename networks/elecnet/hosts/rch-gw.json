@@ -1,0 +1,19 @@
+{
+    "hostname": "rch-gw",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.23.196.180/29"
+        },
+        "eth1": {
+            "name": "eth1",
+            "prefix": "10.22.223.90/29"
+        },
+        "eth2": {
+            "name": "eth2",
+            "prefix": "10.22.213.170/29"
+        }
+    },
+    "overlay": true,
+    "iptablesFile": "iptables/rch-gw.iptables"
+}

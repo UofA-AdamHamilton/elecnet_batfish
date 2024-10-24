@@ -1,0 +1,11 @@
+{
+    "hostname": "eme-yrv",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.23.208.164/29",
+            "gateway": "10.23.208.165"
+        }
+    },
+    "iptablesFile": "iptables/eme-yrv.iptables"
+}

@@ -1,0 +1,19 @@
+{
+    "hostname": "sun-gw",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.23.115.37/29"
+        },
+        "eth1": {
+            "name": "eth1",
+            "prefix": "10.22.126.107/29"
+        },
+        "eth2": {
+            "name": "eth2",
+            "prefix": "10.22.115.225/29"
+        }
+    },
+    "overlay": true,
+    "iptablesFile": "iptables/sun-gw.iptables"
+}

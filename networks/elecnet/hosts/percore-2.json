@@ -1,0 +1,35 @@
+{
+    "hostname": "percore-2",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.10.2.98/30"
+        },
+        "eth1": {
+            "name": "eth1",
+            "prefix": "10.22.35.140/29"
+        },
+        "eth2": {
+            "name": "eth2",
+            "prefix": "10.22.34.33/29"
+        },
+        "eth3": {
+            "name": "eth3",
+            "prefix": "10.21.49.138/30"
+        },
+        "eth4": {
+            "name": "eth4",
+            "prefix": "10.20.54.81/30"
+        },
+        "eth5": {
+            "name": "eth5",
+            "prefix": "10.20.56.153/30"
+        },
+        "eth6": {
+            "name": "eth6",
+            "prefix": "10.10.51.145/30"
+        }
+    },
+    "overlay": true,
+    "iptablesFile": "iptables/percore-2.iptables"
+}

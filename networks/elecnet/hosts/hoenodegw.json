@@ -1,0 +1,19 @@
+{
+    "hostname": "hoenodegw",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.25.229.243/25"
+        },
+        "eth2": {
+            "name": "eth2",
+            "prefix": "10.25.167.62/25"
+        },
+        "eth1": {
+            "name": "eth1",
+            "prefix": "10.25.161.70/25"
+        }
+    },
+    "overlay": true,
+    "iptablesFile": "iptables/hoenodegw.iptables"
+}

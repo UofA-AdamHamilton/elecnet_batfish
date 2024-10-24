@@ -1,0 +1,19 @@
+{
+    "hostname": "yrv-gw",
+    "hostInterfaces": {
+        "eth1": {
+            "name": "eth1",
+            "prefix": "10.22.221.181/29"
+        },
+        "eth2": {
+            "name": "eth2",
+            "prefix": "10.23.208.165/29"
+        },
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.22.217.196/29"
+        }
+    },
+    "overlay": true,
+    "iptablesFile": "iptables/yrv-gw.iptables"
+}

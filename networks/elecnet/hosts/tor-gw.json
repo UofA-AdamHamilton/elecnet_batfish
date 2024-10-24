@@ -1,0 +1,19 @@
+{
+    "hostname": "tor-gw",
+    "hostInterfaces": {
+        "eth1": {
+            "name": "eth1",
+            "prefix": "10.23.13.97/29"
+        },
+        "eth2": {
+            "name": "eth2",
+            "prefix": "10.22.27.116/29"
+        },
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.22.3.86/29"
+        }
+    },
+    "overlay": true,
+    "iptablesFile": "iptables/tor-gw.iptables"
+}

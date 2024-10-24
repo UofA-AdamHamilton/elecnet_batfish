@@ -1,0 +1,31 @@
+{
+    "hostname": "wagagg",
+    "hostInterfaces": {
+        "eth2": {
+            "name": "eth2",
+            "prefix": "10.25.227.35/24"
+        },
+        "eth3": {
+            "name": "eth3",
+            "prefix": "10.24.145.168/24"
+        },
+        "eth4": {
+            "name": "eth4",
+            "prefix": "10.24.131.11/23"
+        },
+        "eth5": {
+            "name": "eth5",
+            "prefix": "10.25.229.227/25"
+        },
+        "eth1": {
+            "name": "eth1",
+            "prefix": "10.20.154.246/30"
+        },
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.20.139.46/30"
+        }
+    },
+    "overlay": true,
+    "iptablesFile": "iptables/wagagg.iptables"
+}

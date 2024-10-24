@@ -1,0 +1,19 @@
+{
+    "hostname": "brd-gw",
+    "hostInterfaces": {
+        "eth2": {
+            "name": "eth2",
+            "prefix": "10.23.180.214/29"
+        },
+        "eth1": {
+            "name": "eth1",
+            "prefix": "10.22.178.133/29"
+        },
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.22.186.202/29"
+        }
+    },
+    "overlay": true,
+    "iptablesFile": "iptables/brd-gw.iptables"
+}

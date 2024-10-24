@@ -1,0 +1,15 @@
+{
+    "hostname": "krthnodec",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.24.47.9/24",
+            "gateway": null
+        },
+        "eth1": {
+            "name": "eth1",
+            "prefix": "10.24.42.58/24"
+        }
+    },
+    "iptablesFile": "iptables/krthnodec.iptables"
+}

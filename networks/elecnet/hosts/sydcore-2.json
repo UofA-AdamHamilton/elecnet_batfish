@@ -1,0 +1,31 @@
+{
+    "hostname": "sydcore-2",
+    "hostInterfaces": {
+        "eth2": {
+            "name": "eth2",
+            "prefix": "10.22.136.30/29"
+        },
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.10.97.170/30"
+        },
+        "eth1": {
+            "name": "eth1",
+            "prefix": "10.22.140.49/29"
+        },
+        "eth3": {
+            "name": "eth3",
+            "prefix": "10.21.158.146/30"
+        },
+        "eth4": {
+            "name": "eth4",
+            "prefix": "10.20.154.230/30"
+        },
+        "eth5": {
+            "name": "eth5",
+            "prefix": "10.10.159.73/30"
+        }
+    },
+    "overlay": true,
+    "iptablesFile": "iptables/sydcore-2.iptables"
+}

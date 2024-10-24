@@ -1,0 +1,11 @@
+{
+    "hostname": "engnode2",
+    "hostInterfaces": {
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.25.34.227/25",
+            "gateway": "10.25.34.154"
+        }
+    },
+    "iptablesFile": "iptables/engnode2.iptables"
+}

@@ -1,0 +1,43 @@
+-P INPUT DROP
+-P FORWARD DROP
+-P OUTPUT DROP
+-N Coober_Pedy#C#WindNode
+-N Echuca#C#SolarNode
+-N Kalbarri#C#WindNode
+-N Newman#C#SolarNode
+-N Pamayu#C#SolarNode
+-A INPUT -p ospf -j ACCEPT
+-A INPUT -p udp -m udp --dport 33434:33474 -j REJECT --reject-with icmp-port-unreachable
+-A FORWARD -m conntrack --ctstate RELATED,ESTABLISHED -j ACCEPT
+-A FORWARD -j Kalbarri#C#WindNode
+-A FORWARD -s 10.25.78.50/32 -d 10.25.72.51/32 -j ACCEPT
+-A FORWARD -s 10.25.72.51/32 -d 10.25.78.50/32 -j ACCEPT
+-A FORWARD -d 10.25.85.77/32 -j ACCEPT
+-A FORWARD -d 10.25.86.136/32 -j ACCEPT
+-A FORWARD -d 10.25.85.191/32 -j ACCEPT
+-A FORWARD -d 10.25.69.221/32 -j ACCEPT
+-A FORWARD -d 10.25.68.52/32 -j ACCEPT
+-A FORWARD -d 10.25.72.213/32 -j ACCEPT
+-A FORWARD -d 10.25.77.221/32 -j ACCEPT
+-A FORWARD -d 10.25.75.67/32 -j ACCEPT
+-A FORWARD -d 10.25.118.162/32 -j ACCEPT
+-A FORWARD -d 10.25.119.99/32 -j ACCEPT
+-A FORWARD -d 10.25.116.3/32 -j ACCEPT
+-A OUTPUT -p ospf -j ACCEPT
+-A OUTPUT -p icmp -m icmp --icmp-type 11 -j ACCEPT
+-A OUTPUT -p icmp -m icmp --icmp-type 3 -j ACCEPT
+-A Coober_Pedy#C#WindNode -s 10.25.69.221/32 -j ACCEPT
+-A Coober_Pedy#C#WindNode -s 10.25.68.52/32 -j ACCEPT
+-A Echuca#C#SolarNode -s 10.25.118.162/32 -j ACCEPT
+-A Echuca#C#SolarNode -s 10.25.119.99/32 -j ACCEPT
+-A Echuca#C#SolarNode -s 10.25.116.3/32 -j ACCEPT
+-A Kalbarri#C#WindNode -j Pamayu#C#SolarNode
+-A Kalbarri#C#WindNode -j Coober_Pedy#C#WindNode
+-A Kalbarri#C#WindNode -j Newman#C#SolarNode
+-A Kalbarri#C#WindNode -j Echuca#C#SolarNode
+-A Newman#C#SolarNode -s 10.25.72.213/32 -j ACCEPT
+-A Newman#C#SolarNode -s 10.25.77.221/32 -j ACCEPT
+-A Newman#C#SolarNode -s 10.25.75.67/32 -j ACCEPT
+-A Pamayu#C#SolarNode -s 10.25.85.77/32 -j ACCEPT
+-A Pamayu#C#SolarNode -s 10.25.86.136/32 -j ACCEPT
+-A Pamayu#C#SolarNode -s 10.25.85.191/32 -j ACCEPT

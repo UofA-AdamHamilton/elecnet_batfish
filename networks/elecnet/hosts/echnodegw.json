@@ -1,0 +1,23 @@
+{
+    "hostname": "echnodegw",
+    "hostInterfaces": {
+        "eth3": {
+            "name": "eth3",
+            "prefix": "10.25.116.20/25"
+        },
+        "eth2": {
+            "name": "eth2",
+            "prefix": "10.25.119.46/25"
+        },
+        "eth1": {
+            "name": "eth1",
+            "prefix": "10.25.118.175/24"
+        },
+        "eth0": {
+            "name": "eth0",
+            "prefix": "10.25.241.50/24"
+        }
+    },
+    "overlay": true,
+    "iptablesFile": "iptables/echnodegw.iptables"
+}
