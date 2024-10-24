@@ -1,0 +1,17 @@
+sequence:
+  - wait: 3
+types:
+  router:
+    - vtysh:
+        - show run
+        - show ip route
+    - bash:
+        - iptables -S
+        - ip addr
+        - ip --json addr
+  pc:
+    - bash:
+      - iptables -S
+      - ip addr
+      - ip --json addr
+      - cat defaultroute.sh
